@@ -11,6 +11,8 @@ import connectDB from './config/db.js'
 import {notFound, errorHandler} from './middleware/errorMiddleware.js'
 import productRoutes from './Routes/productRoutes.js'
 import userRoutes from './Routes/userRoutes.js'
+import orderRoutes from './Routes/orderRoutes.js'
+
 
 const port = process.env.PORT || 5001
 
