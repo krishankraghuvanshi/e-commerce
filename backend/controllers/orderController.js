@@ -16,7 +16,7 @@ const addOrderItems = asyncHandler(async (req, res) => {
         taxPrice,
         shippingPrice,
         totalPrice
-    } = res.body
+    } = req.body
 
     if (orderItems && orderItems.length == 0) {
         res.status(400)
@@ -59,7 +59,7 @@ const getMyOrder = asyncHandler(async (req, res) => {
 
 const getOrderById = asyncHandler(async(req, res) => {
     // res.send("get oder by id")
-    const order = await Order.findById(req.param.id).populate('user', 'name email')
+    const order = await Order.findById(req.params.id).populate('user', 'name email')
 
     if (order) {
         res.status(200).json(order)

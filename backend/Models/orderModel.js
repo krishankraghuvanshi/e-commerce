@@ -9,12 +9,12 @@ const orderSchema = new mongoose.Schema({
     orderItems:[{
         name:{type: String, required: true},
         qty:{type:Number, required: true},
-        image:{type:Number, required: true},
+        image:{type:String, required: true},
         price:{type:Number, required: true},
-        products:{
+        product:{
             type:mongoose.Schema.Types.ObjectId,
             required:true,
-            ref:'products'
+            ref:'Product'
         },
     }],
     shippingAddress:{
@@ -32,9 +32,9 @@ const orderSchema = new mongoose.Schema({
         id:{type:String},
         status:{type:String},
         update_time:{type:String},
-        email_addess:{type:String},
+        email_address:{type:String},
     },
-    itemPrice:{
+    itemsPrice:{
         type: Number,
         required:true,
         default:0.0,
@@ -65,7 +65,7 @@ const orderSchema = new mongoose.Schema({
     isDelivered:{
         type:Boolean,
         required:true,
-        default:true,
+        default:false,
     },
     deliveredAt:{
         type:Date,
