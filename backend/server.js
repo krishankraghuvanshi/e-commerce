@@ -11,6 +11,8 @@ import connectDB from './config/db.js'
 import {notFound, errorHandler} from './middleware/errorMiddleware.js'
 import productRoutes from './Routes/productRoutes.js'
 import userRoutes from './Routes/userRoutes.js'
+import orderRoutes from './Routes/orderRoutes.js'
+
 
 const port = process.env.PORT || 5001
 
@@ -37,6 +39,7 @@ app.use(cors({
 
 app.use('/api/products', productRoutes)
 app.use('/api/users', userRoutes)
+app.use('/api/orders', orderRoutes)
 
 app.get('*', (req, res) =>
     res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'))

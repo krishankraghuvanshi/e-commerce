@@ -31,7 +31,7 @@ const CartScreen = () => {
     }
 
     const checkOutHandler = () => {
-        navigate(' /login?redirect =/ shipping')
+        navigate('/login?redirect=/shipping')
     }
 
     return (
@@ -84,33 +84,27 @@ const CartScreen = () => {
                 )}
             </Col>
 
-            <Col md = {4}>
-            <Card>
-                <ListGroup variant = 'flush'>
-                    <ListGroup.Item>
-                        <h2>
-
-                            Subtotal({ cartItems.reduce((acc, item) => acc + item.qty, 0)})
-                            items
-
-                        </h2>
-                        ${ cartItems.reduce((acc, item)=> acc + item.qty*item.price, 0).toFixed(2)}
-
-                    </ListGroup.Item>
-                    <ListGroup.Item>
-                        <Button type = 'button' className = 'btn-block' 
-                        disabled = {cartItems.length === 0}
-                        onClick = { checkOutHandler }>
-
-                            Proceed to CheckOut
-
-                        </Button>
-
-                    </ListGroup.Item>
-                </ListGroup>
-
-            </Card>
-
+            <Col md={4}>
+                <Card>
+                    <ListGroup variant='flush'>
+                        <ListGroup.Item>
+                            <h2>
+                                Subtotal ({cartItems.reduce((acc, item) => acc + item.qty, 0)} items)
+                            </h2>
+                            ${cartItems.reduce((acc, item) => acc + item.qty * item.price, 0).toFixed(2)}
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <Button 
+                                type='button' 
+                                className='btn-block' 
+                                disabled={cartItems.length === 0}
+                                onClick={checkOutHandler}
+                            >
+                                Proceed to CheckOut
+                            </Button>
+                        </ListGroup.Item>
+                    </ListGroup>
+                </Card>
             </Col>
             
         </Row>
