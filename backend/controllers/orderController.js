@@ -58,27 +58,51 @@ const getMyOrder = asyncHandler(async (req, res) => {
 //@access Private
 
 const getOrderById = asyncHandler(async(req, res) => {
-    // res.send("get oder by id")
+    // res.send("get order by id")
     const order = await Order.findById(req.params.id).populate('user', 'name email')
 
     if (order) {
-        res.status(200).json(order)
-    }else{
+        // Check if the order belongs to the logged-in user or if user is admin
+        if (order.user._id.toString() === req.user._id.toString() || req.user.isAdmin) {
+            res.status(200).json(order)
+        } else {
+            res.status(401)
+            throw new Error('Not authorized to access this order')
+        }
+    } else {
         res.status(404)
         throw new Error('Order Not Found')
     }
 })
 
 //@desc update to paid
-//@route GET /api/order/:id/pay
+//@route PUT /api/order/:id/pay
 //@access Private
 
 const updateOrderToPaid = asyncHandler(async(req, res) => {
-    res.send("update order to paid")
+    // res.send("update order to paid")
+    const order = await Order.findById(req.params.id)
+
+    if (order) {
+        order.isPaid = true
+        order.paidAt = Date.now()
+        order.paymentResult = {
+            id: req.body.id,
+            status: req.body.status,
+            update_time: req.body.update_time,
+            email_address: req.body.payer.email_address
+        }
+        const updateOrder = await order.save()
+
+        res.status(200).json(updateOrder)
+    } else {
+        res.status(404)
+        throw new Error('Order not found')
+    }
 })
 
 //@desc update to delivered
-//@route GET /api/order/:id/deliver
+//@route PUT /api/order/:id/deliver
 //@access Private/Admin
 
 const updateOrderToDelivered = asyncHandler(async(req, res) => {
