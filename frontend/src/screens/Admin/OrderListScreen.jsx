@@ -59,7 +59,6 @@ const OrderListScreen = () => {
                 </tr>
               ))}
             </tbody>
-
         </Table>
       )}
   </>

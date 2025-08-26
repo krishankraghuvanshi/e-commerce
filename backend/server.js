@@ -26,6 +26,9 @@ app.use(express.urlencoded({extended : true}))
 //cookie parser middleware
 app.use(cookieParser())
 
+// Serve static files from uploads directory
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')))
+
 app.use(express.static(path.join(__dirname, '/frontend/build')))
 
 // Enable CORS
