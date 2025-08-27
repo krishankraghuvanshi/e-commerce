@@ -11,9 +11,9 @@ const authUser = asyncHandler(async (req, res) => {
     const {email, password} = req.body
     const user = await User.findOne({email})
     
-    if (user) {
-        const isMatch = await user.matchPassword(password)
-    }
+    // if (user) {
+    //     // const isMatch = await user.matchPassword(password)
+    // }
 
     if (user && (await user.matchPassword(password))) {
 
@@ -23,7 +23,7 @@ const authUser = asyncHandler(async (req, res) => {
             _id : user._id,
             name: user.name,
             email: user.email,
-            isAdmin: user.isadmin
+            isadmin: user.isadmin
         })
     }else{
         res.status(401)
@@ -61,7 +61,7 @@ const registerUser = asyncHandler(async (req, res) => {
             _id: user._id,
             name: user.name,
             email: user.email,
-            isAdmin: user.isadmin
+            isadmin: user.isadmin
         })
     } else {
         res.status(400)
@@ -91,7 +91,7 @@ const getUserProfile = asyncHandler(async (req, res) => {
             _id: user._id,
             name: user.name,
             email: user.email,
-            isAdmin: user.isadmin
+            isadmin: user.isadmin
         })
     }else{
         res.status(400)
@@ -119,7 +119,7 @@ const updateUserProfile = asyncHandler(async (req, res) => {
             _id : updatedUser._id,
             name : updatedUser.name,
             email : updatedUser.email,
-            isAdmin : updatedUser.isAdmin,
+            isadmin : updatedUser.isadmin,
         })
 
     }else{
@@ -143,7 +143,7 @@ const deleteUser = asyncHandler(async (req, res) => {
     const user = await User.findById(req.params.id)
 
     if (user) {
-        if (user.isAdmin) {
+        if (user.isadmin) {
             res.status(400)
             throw new Error('Cannot delete admin user')
         }
@@ -178,7 +178,7 @@ const updateUser = asyncHandler(async (req, res) => {
     if (user) {
         user.name = req.body.name || user.name
         user.email = req.body.email || user.email
-        user.isAdmin = req.body.isAdmin !== undefined ? req.body.isAdmin : user.isAdmin
+        user.isadmin = req.body.isAdmin !== undefined ? req.body.isAdmin : user.isadmin
 
         const updatedUser = await user.save()
 
@@ -186,7 +186,7 @@ const updateUser = asyncHandler(async (req, res) => {
             _id: updatedUser._id,
             name: updatedUser.name,
             email: updatedUser.email,
-            isAdmin: updatedUser.isAdmin,
+            isadmin: updatedUser.isadmin,
         })
     } else {
         res.status(404)

@@ -10,8 +10,8 @@ import { useGetProductsQuery, useDeleteProductMutation } from '../../slices/prod
 import { toast } from 'react-toastify'
 
 const ProductListScreen = () => {
-  const { pageNumber } = useParams()
-  const { data, isLoading, error } = useGetProductsQuery({ pageNumber })
+  const { pageNumber, keyword } = useParams()
+  const { data, isLoading, error } = useGetProductsQuery({ pageNumber, keyword })
   const [deleteProduct, { isLoading: deleteLoading }] = useDeleteProductMutation()
   const [showDeleteModal, setShowDeleteModal] = useState(false)
   const [productToDelete, setProductToDelete] = useState(null)
@@ -109,7 +109,7 @@ const ProductListScreen = () => {
               ))}
             </tbody>
           </Table>
-          <Paginate pages={data.pages} page={data.page} isAdmin={true} />
+          <Paginate pages={data.pages} page={data.page} isAdmin={true} keyword={keyword} />
         </>
       )}
 

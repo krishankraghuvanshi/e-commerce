@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Row, Col } from 'react-bootstrap'
 import { useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Loader from "../components/Loader"
 import Product from '../components/Products'
 import Paginate from '../components/Paginate'
@@ -12,6 +13,9 @@ const HomeScreen = () => {
 
   return (
     <>
+      {keyword && <Link to='/' className='btn btn-light mb-4'>
+      Go back
+      </Link>}
       {isLoading ? (
         <Loader/>
       ) : error ? (
@@ -26,7 +30,10 @@ const HomeScreen = () => {
               </Col>
             ))}
           </Row>
-          <Paginate pages={data.pages} page={data.page} keyword={keyword} />
+          <Paginate pages={data.pages} 
+          page={data.page} 
+          keyword = {keyword ? keyword : ''} 
+          />
         </>
       )}
     </>

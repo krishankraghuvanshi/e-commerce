@@ -32,8 +32,10 @@ const Header = () => {
                     <Link to="/" className="navbar-brand">Proshop</Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <SearchBox />
                         <Nav className="ms-auto">
+                            <div style={{ display: 'flex', alignItems: 'center', marginRight: '1rem' }}>
+                                <SearchBox />
+                            </div>
                             <Link to="/cart" className="nav-link">
                                 <FaShoppingCart /> Cart
                                 {cartItems && cartItems.length > 0 && (
