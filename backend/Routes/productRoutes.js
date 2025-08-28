@@ -7,10 +7,13 @@ import {
     updateProduct, 
     deleteProduct,
     uploadProductImage,
-    createProductReview
+    createProductReview,
+    getTopProducts,
 } from '../controllers/productController.js'
 import { protect, admin } from '../middleware/authMiddleware.js'
 import upload from '../middleware/uploadMiddleware.js'
+
+router.get('/top', getTopProducts)
 
 // Public routes
 router.route('/').get(getProducts)

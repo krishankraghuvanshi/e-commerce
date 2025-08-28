@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import Loader from "../components/Loader"
 import Product from '../components/Products'
 import Paginate from '../components/Paginate'
+import ProductCarousel from '../components/ProductCarousel'
 import { useGetProductsQuery } from '../slices/productsApiSlice'
 
 const HomeScreen = () => {
@@ -13,9 +14,11 @@ const HomeScreen = () => {
 
   return (
     <>
-      {keyword && <Link to='/' className='btn btn-light mb-4'>
+      {!keyword ? <ProductCarousel /> : (
+        <Link to='/' className='btn btn-light mb-4'>
       Go back
-      </Link>}
+      </Link>
+      )}
       {isLoading ? (
         <Loader/>
       ) : error ? (
