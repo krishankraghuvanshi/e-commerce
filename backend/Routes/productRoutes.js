@@ -6,7 +6,8 @@ import {
     createProduct, 
     updateProduct, 
     deleteProduct,
-    uploadProductImage
+    uploadProductImage,
+    createProductReview
 } from '../controllers/productController.js'
 import { protect, admin } from '../middleware/authMiddleware.js'
 import upload from '../middleware/uploadMiddleware.js'
@@ -14,6 +15,9 @@ import upload from '../middleware/uploadMiddleware.js'
 // Public routes
 router.route('/').get(getProducts)
 router.route('/:id').get(getProductById)
+
+// Review routes (protected)
+router.route('/:id/reviews').post(protect, createProductReview)
 
 // Admin routes (protected)
 router.route('/').post(protect, admin, createProduct)
