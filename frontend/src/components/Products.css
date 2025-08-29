@@ -1,0 +1,36 @@
+/* Smooth hover pop effect */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05) translateY(-5px);  /* zoom + lift */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  /* Optional font styling */
+  .product-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+  }
+  
+  .product-price {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+  }
+/* remove underline from links inside product card */
+.product-card a {
+    text-decoration: none !important;
+    color: inherit;   /* keeps text color same as parent */
+  }
+  
+  .product-card a:hover {
+    text-decoration: none; /* still no underline on hover */
+    color: #111;           /* optional: slightly darker on hover */
+  }
+    
