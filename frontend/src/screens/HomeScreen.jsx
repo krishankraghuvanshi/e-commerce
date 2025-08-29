@@ -7,6 +7,7 @@ import Product from '../components/Products'
 import Paginate from '../components/Paginate'
 import ProductCarousel from '../components/ProductCarousel'
 import { useGetProductsQuery } from '../slices/productsApiSlice'
+import ProductSkeleton from "../components/ProductSkeleton"
 
 const HomeScreen = () => {
   const { pageNumber, keyword } = useParams()
@@ -20,7 +21,7 @@ const HomeScreen = () => {
       </Link>
       )}
       {isLoading ? (
-        <Loader/>
+        <ProductSkeleton />
       ) : error ? (
         <div>{error?.data?.message || error.error}</div>
       ) : (

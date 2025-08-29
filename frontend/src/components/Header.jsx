@@ -29,26 +29,32 @@ const Header = () => {
         <header>
             <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
                 <Container>
-                    <Link to="/" className="navbar-brand">Proshop</Link>
+                    <Link to="/" className="navbar-brand text-decoration-none">Proshop</Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto">
+                        <Nav className="ms-auto d-flex align-items-center">
+                            
+                            {/* Search */}
                             <div style={{ display: 'flex', alignItems: 'center', marginRight: '1rem' }}>
                                 <SearchBox />
                             </div>
-                            <Link to="/cart" className="nav-link">
-                                <FaShoppingCart /> Cart
+
+                            {/* Cart */}
+                            <Link to="/cart" className="nav-link d-flex align-items-center text-decoration-none">
+                                <FaShoppingCart className="me-1" /> Cart
                                 {cartItems && cartItems.length > 0 && (
                                     <Badge pill bg="success" style={{ marginLeft: '5px' }}>
                                         {cartItems.reduce((a, c) => a + c.qty, 0)}
                                     </Badge>
                                 )}
                             </Link>
+
+                            {/* User */}
                             {userInfo ? (
                                 <NavDropdown 
                                     title={userInfo.name} 
                                     id='username'
-                                    className="nav-link"
+                                    className="d-flex align-items-center ms-2"
                                 >
                                     <LinkContainer to='/profile'>
                                         <NavDropdown.Item>Profile</NavDropdown.Item>
@@ -58,12 +64,14 @@ const Header = () => {
                                     </NavDropdown.Item>
                                 </NavDropdown>
                             ) : (
-                                <Link to="/login" className="nav-link">
-                                    <FaUser /> Login
+                                <Link to="/login" className="nav-link d-flex align-items-center text-decoration-none">
+                                    <FaUser className="me-1" /> Login
                                 </Link>
                             )}
+
+                            {/* Admin Menu */}
                             {userInfo && userInfo.isAdmin && (
-                                <NavDropdown title='Admin' id='adminmenu'>
+                                <NavDropdown title='Admin' id='adminmenu' className="ms-2">
                                     <LinkContainer to='/admin'>
                                         <NavDropdown.Item>Dashboard</NavDropdown.Item>
                                     </LinkContainer>
