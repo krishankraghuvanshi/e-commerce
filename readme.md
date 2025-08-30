@@ -1,1 +1,1 @@
-This project is deployed at https://e-commerce-t3pax.ondigitalocean.app/
+This project is deployed at https://kkrv.in
