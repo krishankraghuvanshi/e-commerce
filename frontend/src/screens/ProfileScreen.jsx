@@ -126,7 +126,7 @@ const ProfileScreen = () => {
                     {order.createdAt ? order.createdAt.substring(0, 10) : ''}
                   </td>
                   <td>
-                    ${order.totalPrice}
+                    ₹{order.totalPrice}
                   </td>
                   <td>
                     {order.isPaid && order.paidAt ? (

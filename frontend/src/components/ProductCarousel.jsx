@@ -27,7 +27,7 @@ const ProductCarousel = () => {
                 />
                 <Carousel.Caption className='carousel-caption'>
                 <h2>
-                    {product.name} (${product.price})
+                    <span style={{ color: '#000000' }}>{product.name} (₹{product.price})</span>
                 </h2>
                 </Carousel.Caption>
             </Link>
