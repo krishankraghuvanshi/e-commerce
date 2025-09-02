@@ -11,14 +11,14 @@
   
   /* Optional font styling */
   .product-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'monospace', sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: #222;
   }
   
   .product-price {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'monospace', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: #444;

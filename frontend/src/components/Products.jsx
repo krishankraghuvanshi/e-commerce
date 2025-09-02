@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Card } from 'react-bootstrap'
 import Rating from './Rating'
-import './Products.css'   // ⬅️ Import CSS file for hover effect
+import './Products.css'   
 
 const Product = ({ product }) => {
   return (

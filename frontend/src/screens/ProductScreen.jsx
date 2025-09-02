@@ -54,12 +54,12 @@ const ProductScreen = () => {
   return (
     <>
     <Link className='btn btn-light my-3' to='/'>Go Back</Link>
-    {isLoading ? (
+    {isLoading || loadingProductReview ? (
         <Loader />
-    ) : error ? (
-        <div>{error?.data?.message || error.error}</div>
     ) : !product ? (
         <div>Product not found</div>
+    ) : error ? (
+        <div>{error?.data?.message || error.error}</div>
     ) : (
         <>
             <Row>
@@ -75,7 +75,7 @@ const ProductScreen = () => {
                             <Rating value={product.rating} text={`${product.numReviews} reviews`} />
                         </ListGroup.Item>
                         <ListGroup.Item>
-                            Price: ${product.price}
+                            Price: ₹{product.price}
                         </ListGroup.Item>
                         <ListGroup.Item>
                             Description: {product.description}
@@ -88,7 +88,7 @@ const ProductScreen = () => {
                             <ListGroup.Item>
                                 <Row>
                                     <Col>Price:</Col>
-                                    <Col>${product.price}</Col>
+                                    <Col>₹{product.price}</Col>
                                 </Row>
                             </ListGroup.Item>
                             <ListGroup.Item>
@@ -147,12 +147,12 @@ const ProductScreen = () => {
                     <h2>Reviews</h2>
                     {product.reviews.length === 0 && <Message>No Reviews</Message>}
                     <ListGroup variant='flush'>
-                        {product.reviews.map((review) => (
+                        {product.reviews && product.reviews.map((review) => (
                             <ListGroup.Item key={review._id}>
-                                <strong>{review.name}</strong>
+                                <strong>{review?.name || 'Anonymous'}</strong>
                                 <Rating value={review.rating} />
-                                <p>{review.createdAt.substring(0, 10)}</p>
-                                <p>{review.comment}</p>
+                                <p>{review.createdAt?.substring(0, 10)}</p>
+                                <p>{review?.comment}</p>
                             </ListGroup.Item>
                         ))}
                         <ListGroup.Item>

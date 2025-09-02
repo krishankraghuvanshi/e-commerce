@@ -27,9 +27,9 @@ const Header = () => {
 
     return (
         <header>
-            <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
+            <Navbar style={{ backgroundColor: '#FFA500' }} variant="light" expand="md" collapseOnSelect>
                 <Container>
-                    <Link to="/" className="navbar-brand text-decoration-none">Proshop</Link>
+                    <Link to="/" className="navbar-brand text-decoration-none">Shopping Website</Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto d-flex align-items-center">
