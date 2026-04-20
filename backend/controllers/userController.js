@@ -1,8 +1,9 @@
 import asyncHandler from '../middleware/asyncHandler.js'
 import User from '../Models/userModel.js'
 import generateToken from '../utils/generateToken.js'
+import { OAuth2Client } from 'google-auth-library'
 
-
+const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID)
 
 //@desc user and get token
 //@routes POST /api
@@ -194,8 +195,48 @@ const updateUser = asyncHandler(async (req, res) => {
     }
 })
 
+//@desc Auth user with Google
+//@routes POST /api/users/google
+//@access public
+const authGoogleUser = asyncHandler(async (req, res) => {
+    const { token } = req.body
+
+    try {
+        const ticket = await client.verifyIdToken({
+            idToken: token,
+            audience: process.env.GOOGLE_CLIENT_ID,
+        })
+        const payload = ticket.getPayload()
+        const { email, name } = payload
+
+        let user = await User.findOne({ email })
+
+        if (!user) {
+            user = await User.create({
+                name,
+                email,
+                password: Math.random().toString(36).slice(-10) + 'DummyGooglePass123!'
+            })
+        }
+
+        generateToken(res, user._id)
+        
+        res.status(200).json({
+            _id: user._id,
+            name: user.name,
+            email: user.email,
+            isadmin: user.isadmin
+        })
+    } catch (error) {
+        console.error("Google Auth Error:", error)
+        res.status(401)
+        throw new Error('Invalid Google Token')
+    }
+})
+
 export {
     authUser,
+    authGoogleUser,
     registerUser,
     getUserProfile,
     updateUserProfile,

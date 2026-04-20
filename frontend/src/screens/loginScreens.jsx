@@ -4,9 +4,10 @@ import { useDispatch, useSelector } from "react-redux"
 import {Form, Button, Row, Col} from "react-bootstrap"
 import FormContainer from "../components/formContainer"
 import Loader from "../components/Loader"
-import { useLoginMutation } from "../slices/usersApiSlice"
+import { useLoginMutation, useLoginGoogleMutation } from "../slices/usersApiSlice"
 import { setCredentials } from "../slices/authSlice"
 import { toast } from "react-toastify"
+import { GoogleLogin } from '@react-oauth/google';
 
 const LoginScreen = () => {
     const [email, setEmail] = useState("")
@@ -16,6 +17,7 @@ const LoginScreen = () => {
     const navigate = useNavigate()
 
     const [login, {isLoading}] = useLoginMutation()
+    const [loginGoogle, { isLoading: isGoogleLoading }] = useLoginGoogleMutation()
 
     const {userInfo} = useSelector((state) => state.auth)
 
@@ -40,6 +42,20 @@ const LoginScreen = () => {
             console.error('Login error:', err)
             toast.error(err?.data?.message || err.error)
         }
+    }
+
+    const googleSuccess = async (credentialResponse) => {
+        try {
+            const res = await loginGoogle({ token: credentialResponse.credential }).unwrap()
+            dispatch(setCredentials({...res}))
+            navigate(redirect)
+        } catch(err) {
+            toast.error(err?.data?.message || err.error || 'Google Sign-In Failed')
+        }
+    }
+
+    const googleError = () => {
+        toast.error('Google Sign-In Failed')
     }
 
     return (
@@ -69,13 +85,22 @@ const LoginScreen = () => {
                 <Button 
                     type='submit' 
                     variant='primary' 
-                    className='mt-3'
-                    disabled={isLoading}
+                    className='mt-3 me-3'
+                    disabled={isLoading || isGoogleLoading}
                 >
                     Sign In
                 </Button>
                 {isLoading && <Loader />}
             </Form>
+
+            <div className="mt-4">
+                <p>Or sign in with:</p>
+                <GoogleLogin
+                    onSuccess={googleSuccess}
+                    onError={googleError}
+                    useOneTap
+                />
+            </div>
 
             <Row className='py-3'>
                 <Col>

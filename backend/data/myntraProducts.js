@@ -2,7 +2,7 @@ const products =
 [
     {
         "name": "Khushal K Women Black Ethnic Motifs Printed Kurta with Palazzos & With Dupatta",
-        "price": 5099.0,
+        "price": 5099,
         "description": "Black printed Kurta with Palazzos with dupatta    Kurta design:     Ethnic motifs printed   Anarkali shape   Regular style   Mandarin collar,  three-quarter regular sleeves   Calf length with flared hem   Viscose rayon machine weave fabric     Palazzos design:     Printed Palazzos   Elasticated waistband   Slip-on closure  Dupatta Length 2.43 meters Width:&nbsp;88 cmThe model (height 5'8) is wearing a size S100% RayonMachine wash",
         "category": "Myntra",
         "brand": "Khushal K",
@@ -13,7 +13,7 @@ const products =
     },
     {
         "name": "InWeave Women Orange Solid Kurta with Palazzos & Floral Print Dupatta",
-        "price": 5899.0,
+        "price": 5899,
         "description": "Orange solid Kurta with Palazzos with dupattaKurta design: SolidA-line shapeRegular styleSquare neck, sleeveless shoulder strapsCalf length with straight hemViscose rayon machine weave fabricPalazzos design: Solid PalazzosElasticated waistbandZip closureDupatta Design:Floral PrintedKurta Fabric: Viscose rayonBottom Fabric:&nbsp;Viscose rayonDupatta Fabric: OrganzaHand washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "InWeave",
@@ -24,40 +24,7 @@ const products =
     },
     {
         "name": "Anubhutee Women Navy Blue Ethnic Motifs Embroidered Thread Work Kurta with Trousers & With Dupatta",
-        "price": 4899.0,
-        "description": "Navy blue embroidered Kurta with Trousers with dupatta    Kurta design:     Ethnic motifs embroidered   A-line shape   Regular style   Round neck,  three-quarter no sleeves   Thread work detail   Above knee length with flared hem   Viscose rayon machine weave fabric     Trousers design:     Printed Trousers   Elasticated waistband   Slip-on closure  Viscose rayonHand WashThe model (height 5'8) is wearing a size S",
-        "category": "Myntra",
-        "brand": "Anubhutee",
-        "countInStock": 100,
-        "numReviews": 1752,
-        "rating": 4,
-        "image": "/images/b8c4f90f-683c-48d2-b8ac-19891a87c0651638428628378KurtaSets1.jpg"
-    },
-    {
-        "name": "Khushal K Women Black Ethnic Motifs Printed Kurta with Palazzos & With Dupatta",
-        "price": 5099.0,
-        "description": "Black printed Kurta with Palazzos with dupatta    Kurta design:     Ethnic motifs printed   Anarkali shape   Regular style   Mandarin collar,  three-quarter regular sleeves   Calf length with flared hem   Viscose rayon machine weave fabric     Palazzos design:     Printed Palazzos   Elasticated waistband   Slip-on closure  Dupatta Length 2.43 meters Width:&nbsp;88 cmThe model (height 5'8) is wearing a size S100% RayonMachine wash",
-        "category": "Myntra",
-        "brand": "Khushal K",
-        "countInStock": 100,
-        "numReviews": 4522,
-        "rating": 4,
-        "image": "/images/b0eb9426-adf2-4802-a6b3-5dbacbc5f2511643971561167KhushalKWomenBlackEthnicMotifsAngrakhaBeadsandStonesKurtawit7.jpg"
-    },
-    {
-        "name": "InWeave Women Orange Solid Kurta with Palazzos & Floral Print Dupatta",
-        "price": 5899.0,
-        "description": "Orange solid Kurta with Palazzos with dupattaKurta design: SolidA-line shapeRegular styleSquare neck, sleeveless shoulder strapsCalf length with straight hemViscose rayon machine weave fabricPalazzos design: Solid PalazzosElasticated waistbandZip closureDupatta Design:Floral PrintedKurta Fabric: Viscose rayonBottom Fabric:&nbsp;Viscose rayonDupatta Fabric: OrganzaHand washThe model (height 5'8) is wearing a size S",
-        "category": "Myntra",
-        "brand": "InWeave",
-        "countInStock": 100,
-        "numReviews": 1081,
-        "rating": 4,
-        "image": "/images/17ab2ac8-2e60-422d-9d20-2527415932361640754214931-STRAPPY-SET-IN-ORANGE-WITH-ORGANZA-DUPATTA-5961640754214349-2.jpg"
-    },
-    {
-        "name": "Anubhutee Women Navy Blue Ethnic Motifs Embroidered Thread Work Kurta with Trousers & With Dupatta",
-        "price": 4899.0,
+        "price": 4899,
         "description": "Navy blue embroidered Kurta with Trousers with dupatta    Kurta design:     Ethnic motifs embroidered   A-line shape   Regular style   Round neck,  three-quarter no sleeves   Thread work detail   Above knee length with flared hem   Viscose rayon machine weave fabric     Trousers design:     Printed Trousers   Elasticated waistband   Slip-on closure  Viscose rayonHand WashThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Anubhutee",
@@ -68,7 +35,7 @@ const products =
     },
     {
         "name": "Nayo Women Red Floral Printed Kurta With Trouser & Dupatta",
-        "price": 3699.0,
+        "price": 3699,
         "description": "Red printed kurta with trouser and dupattaKurta design:Printed kurtaAnarkali designRound neckThree-quarter sleevesFlared hemCalf lengthTrouser design:Printed trousersElasticated waistbandSlip-on closureDupatta design:White and red printed dupattaTop fabric:  Pure Cotton  Bottom fabric:  Pure Cotton  Dupatta fabric:  Cotton Blend  Hand washDupatta length: 2 metres (approx.)  The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Nayo",
@@ -79,7 +46,7 @@ const products =
     },
     {
         "name": "AHIKA Women Black & Green Printed Straight Kurta",
-        "price": 1350.0,
+        "price": 1350,
         "description": "Black and green printed straight kurta, has a nitched round neck, three-quarter sleeves, straight hem, side slitsMaterial: Cotton Machine WashThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "AHIKA",
@@ -90,7 +57,7 @@ const products =
     },
     {
         "name": "Libas Women Navy Blue Pure Cotton Floral Print Kurta with Palazzos & Dupatta",
-        "price": 3599.0,
+        "price": 3599,
         "description": "Stately and versatile, this kurta set will be your top choice. Its eye-catching printed kurta comes with snug printed palazzos and a gorgeous printed dupatta for added appeal. Kurta design: Floral printedAnarkali shapePleated styleKeyhole neck, three-quarter regular sleevesGotta patti detailCalf length with flared hemPure cotton machine weave fabricPalazzos design: Printed PalazzosPartially elasticated waistbandSlip-on closure2 pocketsDupatta DesignPrinted dupattaTop fabric:  Pure Cotton  Bottom fabric:  Pure Cotton  Dupatta fabric:  Pure Cotton  Machine washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Libas",
@@ -101,7 +68,7 @@ const products =
     },
     {
         "name": "Ahalyaa Women Beige Floral Printed Regular Gotta Patti Kurta with Palazzos & With Dupatta",
-        "price": 6000.0,
+        "price": 6000,
         "description": "When in doubt, rock this simple yet stylish kurta set at any traditional function. It comes with an elegant printed kurta and snug printed palazzos for comfort.&nbsp;Kurta:Classy beige toneAttractive round neckLong regular sleevesCalf lengthPoly crepe, machine washPalazzos:Printed palazzosPartially elasticated waistPoly crepe, machine washTassels borderPrinted patternNet, machine washTrend AlertSymbols of freshness and beauty, romantic florals in vibrant hues and prints have been a mainstay in fashion for decades. Right from delicate all-over patterns to abstract and oversized motifs, romantic florals lend any garment a feminine touch.Top fabric:  Poly Crepe  Bottom fabric:  Poly Crepe  Dupatta fabric:  Net  Machine washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Ahalyaa",
@@ -112,7 +79,7 @@ const products =
     },
     {
         "name": "Anouk Women Yellow & White Printed Kurta with Palazzos",
-        "price": 1999.0,
+        "price": 1999,
         "description": "Yellow and white printed kurta with palazzos Yellow and white straight knee length kurta, has a round neck, three-quarter sleeves, side slitsYellow and white Printed palazzos, has partially elasticated waistbandThe model (height 5'8\") is wearing a size STop fabric: Pure CottonBottom fabric: Pure CottonMachine-wash",
         "category": "Myntra",
         "brand": "Anouk",
@@ -123,7 +90,7 @@ const products =
     },
     {
         "name": "Khushal K Women Green & Pink Printed Pure Cotton Kurta with Palazzos & Dupatta",
-        "price": 5299.0,
+        "price": 5299,
         "description": "Green &amp; pink printed kurta with palazzos &amp; dupattaKurta design: Ethnic motifs printedA-line shapeRegular&nbsp; styleRound neck, three-quarter regular sleevesGotta patti detailCalf length with flared hemPure cotton machine weave fabricPalazzos design: Printed PalazzosElasticated waistbandSlip-on closureComes with pink solid dupattaDupatta: 2.4 x 0.8 metersThe model (height 5'8) is wearing a size STop: 100% CottonBottom: 100% CottonDupatta: Silk ChiffonMachine wash",
         "category": "Myntra",
         "brand": "Khushal K",
@@ -134,7 +101,7 @@ const products =
     },
     {
         "name": "Libas Floral Bliss Side Pocket Cotton Kurta Set",
-        "price": 2499.0,
+        "price": 2499,
         "description": "This set includes: Kurta and TrousersA smart piece with a floral trend signature, the contemporary styling components ups the exclusivity of this set. The shades of taffy pink beautifully contrasts with the luxe blue floral motifs, while the structured silhouette gives it a casual edge. Design, comfort and a smart overall look, this set is elegance personified!Kurta:All over floral print, hook and eye keyhole neck, short sleeves, calf length with tapered slits, smart styling with side pocketTrousers:Variegated grainy stripes in crop-cut with elastic&nbsp;back, slip-on styling, 2 pocketsPure cotton, Machine-washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "Libas",
@@ -145,7 +112,7 @@ const products =
     },
     {
         "name": "Varanga Women Mustard Yellow Floral Yoke Embroidered Straight Kurta",
-        "price": 1999.0,
+        "price": 1999,
         "description": "Mustard yellow floral yoke embroidered straight kurta, has a round neck, three-quarter sleeves, straight hem, and side slitsThe model (height 5'8\") is wearing a size SMaterial: 100% CottonDry Clean",
         "category": "Myntra",
         "brand": "Varanga",
@@ -156,7 +123,7 @@ const products =
     },
     {
         "name": "AHIKA Women Teal Ethnic Motifs Yoke Design Kurta with Trousers & With Dupatta",
-        "price": 3748.0,
+        "price": 3748,
         "description": "Teal yoke design Kurta with Trousers with dupatta    Kurta design:     Ethnic motifs yoke design   A-line shape   Panelled style   Keyhole neck,  three-quarter regular sleeves   Calf length with flared hem   Poly silk machine weave fabric     Trousers design:     Solid Trousers   Partially elasticated waistband   Zip closure  The model (height 5'8) is wearing a size SDupatta length 2.25 mtr Width 0.7 mtrKurta: Poly SilkBottom:&nbsp;Poly SilkDupatta: Art SilkHand wash",
         "category": "Myntra",
         "brand": "AHIKA",
@@ -167,7 +134,7 @@ const products =
     },
     {
         "name": "Vishudh Women Navy Blue Floral Printed Regular Pure Cotton Kurta with Palazzos",
-        "price": 2149.0,
+        "price": 2149,
         "description": "Navy blue printed Kurta with Palazzos    Kurta design:     Floral printed   Straight shape   Regular style   Mandarin collar,  three-quarter roll-up sleeves   Calf length with straight hem   Pure cotton machine weave fabric     Palazzos design:     Printed Palazzos   Elasticated waistband   Slip-on closure  Top fabric:  Pure Cotton  Bottom fabric:  Pure Cotton  Machine washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Vishudh",
@@ -178,7 +145,7 @@ const products =
     },
     {
         "name": "Anouk Women Peach-Coloured Yoke Design Mirror-Work Kurta with Trousers & With Dupatta",
-        "price": 3799.0,
+        "price": 3799,
         "description": "Peach-coloured yoke design kurta with palazzos with dupattaKurta design: Ethnic motifs yoke designStraight shapeRegular styleRound neck, three-quarter regular sleevesCalf length with straight hemViscose rayon machine weave fabricPalazzos design: Solid trousersPartially elasticated waistbandSlip-on closureTwo pocketsDupattaSolid dupattaTop fabric: 100% Viscose RayonBottom fabric: 100% Viscose RayonDupatta fabric: Poly ChiffonHand washThe model (height 58) is wearing a size S",
         "category": "Myntra",
         "brand": "Anouk",
@@ -189,7 +156,7 @@ const products =
     },
     {
         "name": "Varanga Women Yellow & Peach-Coloured Floral Screen Printed Gotta Patti Straight Kurta",
-        "price": 2799.0,
+        "price": 2799,
         "description": "Colour: yellow and peach colouredFloral screen printedRound neckThree-quarter, regular sleevesStraight shape with regular styleGotta patti detailCalf length with straight hemMachine weave regular cottonCotton  Hand wash The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Varanga",
@@ -200,7 +167,7 @@ const products =
     },
     {
         "name": "AHIKA Floral Print Straight Cotton Kurta With Keyhole Neck",
-        "price": 1198.0,
+        "price": 1198,
         "description": "Make a statement with this green kurta that embodies the beauty of simple style. This straight kurta with pastel floral print all-over accents keyhole neck that makes for an ideal piece for both day and night&nbsp;Colour: Green with white floral accentskeyhole neck&nbsp;3/Q roll-up sleevesstraight silhouette&nbsp;with a firm drapeKnee lengthCotton, Machine-washThe model (height 5'8\") is wearing a size SThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "AHIKA",
@@ -211,7 +178,7 @@ const products =
     },
     {
         "name": "Anouk Women Black & Orange Bandhani Printed Kurta",
-        "price": 1699.0,
+        "price": 1699,
         "description": "Colour: black and orangeBandhani printedMandarin collarButton closureSleeveless, no sleevesA-line shape with regular styleCalf length with flared hemMachine weave regular viscose rayonThe model (height 5'8) is wearing a size SViscose rayon  Machine wash",
         "category": "Myntra",
         "brand": "Anouk",
@@ -222,7 +189,7 @@ const products =
     },
     {
         "name": "Libas Women Blue Embroidered Panelled Kurta with Churidar & With Dupatta",
-        "price": 4999.0,
+        "price": 4999,
         "description": "Blue embroidered Kurta with Churidar with dupatta    Kurta design:     Geometric embroidered   A-line shape   Panelled style   Round neck,  long regular sleeves   2 pockets   Floor length with flared hem   Poly georgette machine weave fabric     Churidar design:     Solid Churidar   Elasticated waistband   Slip-on closure  Top fabric:  Poly Georgette  Bottom fabric:  Silk Blend  Dupatta fabric:  Net  Hand washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Libas",
@@ -233,7 +200,7 @@ const products =
     },
     {
         "name": "JAIPURI BUNAAI Women Blue & Orange Ethnic Motifs Printed Kurta With Trousers & Dupatta",
-        "price": 3999.0,
+        "price": 3999,
         "description": "Blue printed Kurta with Trousers with dupattaKurta design: Ethnic motifs printedStraight shapeRegular styleRound neck, three-quarter regular sleevesCalf length with straight hemViscose rayon machine weave fabricTrousers design: Printed TrousersElasticated waistbandSlip-on closureDupatta design: Printed dupattaSolid borderTop fabric:  Viscose Rayon  Bottom fabric:  Viscose Rayon  Dupatta fabric:  Viscose Rayon  Machine washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "JAIPURI BUNAAI",
@@ -244,7 +211,7 @@ const products =
     },
     {
         "name": "KALINI Women Sea Green Floral Yoke Design Pleated Pure Cotton Top with Skirt & With Dupatta",
-        "price": 3999.0,
+        "price": 3999,
         "description": "Sea green yoke design Top with Skirt with dupatta    Top design:     Floral yoke design   A-line shape   Pleated style   V-neck,  short flared sleeves   Na pockets   Above knee length with curved hem   Pure cotton machine weave fabric     Skirt design:     Printed Skirt   Elasticated waistband   Zip closure  The model (height 5'8) is wearing a size SMachine Wash as per Tag",
         "category": "Myntra",
         "brand": "KALINI",
@@ -255,7 +222,7 @@ const products =
     },
     {
         "name": "Indo Era Women Blue & Green Printed Kurta with Palazzos & Dupatta",
-        "price": 4599.0,
+        "price": 4599,
         "description": "Blue and green printed kurta with palazzos and dupattaBlue and green straight calf length kurta, has a mandarin collar, three-quarter sleeves, side slitsGreen solid palazzos, has partially elasticated waistband, slip-on closureBlue and green printed dupatta, has printed borderThe model (height 5'8\") is wearing a size SKurta fabric: pure cottonBottom fabric: pure cottonDupatta fabric: pure cottonHand-wash",
         "category": "Myntra",
         "brand": "Indo Era",
@@ -266,7 +233,7 @@ const products =
     },
     {
         "name": "Anouk Women Pink & Blue Ethnic Motifs Embroidered Kurta with Trousers & With Dupatta",
-        "price": 3899.0,
+        "price": 3899,
         "description": "Pink embroidered Kurta with Trousers with dupattaKurta design: Ethnic motifs embroideredStraight shapeRegular styleRound neckTree-quarter regular sleevesSequinned detailCalf length&nbsp;Straight hemSide detailsViscose rayon knitted and woven fabricTrousers design: Solid TrousersPartially elasticated waistbandSlip-on closureEmbroidered dupattaTop fabric: Viscose SilkBottom fabric: Viscose SilkDupatta fabric: OrganzaMachine washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Anouk",
@@ -277,7 +244,7 @@ const products =
     },
     {
         "name": "Ishin Women Red & Orange Bandhani Print Anarkali Kurta",
-        "price": 5399.0,
+        "price": 5399,
         "description": "Red, orange and pink bandhani printed anarkali kurta with gotta patti detailing, has a round neck, three-quarter sleeves, and flared hemMaterial: Viscose Rayon  Dry CleanThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "Ishin",
@@ -288,7 +255,7 @@ const products =
     },
     {
         "name": "Libas Women Maroon Printed Kurta with Palazzos & Dupatta",
-        "price": 3999.0,
+        "price": 3999,
         "description": "Maroon printed kurta with palazzos and dupatta Maroon A-line calf length kurta, has a V-neck, three-quarter sleeves, front slitMaroon  printed palazzos, has partially elasticated waistband, slip-on closureMaroon printed dupatta, has taping borderThe model (height 5'8\") is wearing a size SKurta fabric: pure cottonBottom fabric: pure cottonDupatta fabric: pure cottonMachine-wash",
         "category": "Myntra",
         "brand": "Libas",
@@ -299,7 +266,7 @@ const products =
     },
     {
         "name": "Nayo Women Pink & Off-White Floral Screen Print A-Line Pure Cotton Kurta Set With Dupatta",
-        "price": 3699.0,
+        "price": 3699,
         "description": "Pink and white Floral Screen Print A-Line Pure Cotton Kurta Set With DupattaKurti design: Floral printedA-line designRegular&nbsp;styleRound neck, three-quarter regular sleeveCalf length with flared hemMachine weave regularTrousers design: PrintedElasticated waistbandSlip-on closureComes with a DupattaTop fabric:  Pure Cotton  Bottom fabric:  Pure Cotton  Dupatta fabric:  Cotton Blend  Machine washDupatta length: 2.25 metre (approx.)The model (height 58) is wearing a size S",
         "category": "Myntra",
         "brand": "Nayo",
@@ -310,7 +277,7 @@ const products =
     },
     {
         "name": "Virah Fashion Women Lime Green Embroidered Layered Thread Work Top with Sharara & With Dupatta",
-        "price": 4999.0,
+        "price": 4999,
         "description": "Lime green embroidered Top with Sharara with dupatta    Top design:     Geometric embroidered   A-line shape   Layered style   Boat neck,  sleeveless no sleeves   Na pockets thread work detail   Above knee length with straight hem   Poly georgette knitted fabric     Sharara design:     Embroidered Sharara   Elasticated waistband   Zip closure  50 %Polyster And 50 % cottton georgetteThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Virah Fashion",
@@ -321,7 +288,7 @@ const products =
     },
     {
         "name": "Indo Era Folksy Floral Screen Print Cotton Kurta Set",
-        "price": 4999.0,
+        "price": 4999,
         "description": "This set includes: Kurta, Trousers and DupattaThe robust flowy silhouette of this piece stands out on its own, as does the ethnic floral patterning all over. Crafted with precision, the intricate stencilling techniques and gotta lace panelling has given this kurta set a sharp edged finishing. If daily comfort with a design marvel is what you're looking for in your ethnic wear, then you've stumbled upon the right thing here!Kurta:Mulberry screen printed ethnic floral pattern all-over with gotta lace, boat neck, 3/4th sleeves, mid calf-length with flared hemTrousers:Blushed tone in clean crop-cut, semi-elasticated waistline with slip-on stylingDupatta:Ethnic screen print with striped and solid alternate borderingPure cotton, hand-washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "Indo Era",
@@ -332,7 +299,7 @@ const products =
     },
     {
         "name": "Kvsfab Women Pink Floral Embroidered Gotta Patti Kurta with Skirt & With Dupatta",
-        "price": 6899.0,
+        "price": 6899,
         "description": "Pink embroidered Kurta with Skirt with dupatta    Kurta design:     Floral embroidered   Straight shape   Regular style   Round neck,  three-quarter regular sleeves   Gotta patti detail   Calf length with straight hem   Viscose rayon machine weave fabric     Skirt design:     Embroidered Skirt   Drawstring closure  The model (height 5'8) is wearing a size SSilk blendDry clean only",
         "category": "Myntra",
         "brand": "Kvsfab",
@@ -343,7 +310,7 @@ const products =
     },
     {
         "name": "Anouk Women Teal Blue & Pink Yoke Design Regular Kurta with Trousers & Dupatta",
-        "price": 3899.0,
+        "price": 3899,
         "description": "Teal blue &amp; Pink yoke design Kurta with Trousers with dupattaKurta design: Solid yoke designStraight shapeRegular styleRound neck, three-quarter regular sleevesCalf length with straight hemArt silk knitted and woven fabricTrousers design: Solid TrousersPartially elasticated waistbandSlip-on closure1 pocketsTop fabric:  Art Silk  Bottom fabric:  Art Silk  Dupatta fabric:  Organza  Machine washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Anouk",
@@ -354,7 +321,7 @@ const products =
     },
     {
         "name": "AHIKA Women Green & Mustard Yellow Printed Straight Kurta",
-        "price": 1198.0,
+        "price": 1198,
         "description": "Green and Mustard yellow printed straight kurta, has a keyhole neck, three-quarter sleeves, straight hem, and side slitsThe model (height 5'8\") is wearing a size SCottonHand-wash",
         "category": "Myntra",
         "brand": "AHIKA",
@@ -365,7 +332,7 @@ const products =
     },
     {
         "name": "Ahalyaa Women Maroon & Gold Printed Kurti with Sharara & Dupatta",
-        "price": 5504.0,
+        "price": 5504,
         "description": "Maroon and gold printed kurti with sharara and dupattaMaroon and gold straight knee length kurti, has a round neck, sleeveless, side slitsMaroon and gold printed sharara, has partially elasticated waistband, slip-on closureMaroon and gold printed dupatta, has taping borderKurta fabric: poly georgetteBottom fabric: poly georgetteDupatta fabric: poly georgetteMachine-washThe model (height 5'8\") is wearing a size SDupatta Length - 2.25 mDupatta Width - 0.52 m",
         "category": "Myntra",
         "brand": "Ahalyaa",
@@ -376,7 +343,7 @@ const products =
     },
     {
         "name": "AASI - HOUSE OF NAYO Women Black & Mustard Yellow Solid Kurta with Trousers & Dupatta",
-        "price": 2999.0,
+        "price": 2999,
         "description": "Black and mustard yellow solid kurta with trousers and dupattaBlack solid straight calf length kurta, has a boat neck, three-quarter sleeves, side slitsBlack solid solid trousers, has elasticated waistband, slip-on closureBlack and mustard yellow printed dupatta, has tassels borderKurta fabric: pure cottonBottom fabric: pure cottonDupatta fabric: pure cottonHand-washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "AASI - HOUSE OF NAYO",
@@ -387,7 +354,7 @@ const products =
     },
     {
         "name": "Anubhutee Women Teal Ethnic Motifs Printed Empire Thread Work Pure Cotton Kurta with Trousers & With Dupatta",
-        "price": 5299.0,
+        "price": 5299,
         "description": "Teal printed Kurta with Trousers with dupatta    Kurta design:     Ethnic motifs printed   Anarkali shape   Empire style   Round neck,  three-quarter regular sleeves   Thread work detail   Above knee length with flared hem   Pure cotton machine weave fabric     Trousers design:     Printed Trousers   Elasticated waistband   Slip-on closure  CottonHand WashThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Anubhutee",
@@ -398,7 +365,7 @@ const products =
     },
     {
         "name": "Anouk Women Red Floral Print A-Line Kurta",
-        "price": 1699.0,
+        "price": 1699,
         "description": "Red Floral Print&nbsp;A-line kurta, has a round neck, short sleeves, flared hem, has gathers along the waistThe model (height 5'8\") is wearing a size S100% viscoseHand-wash",
         "category": "Myntra",
         "brand": "Anouk",
@@ -409,7 +376,7 @@ const products =
     },
     {
         "name": "KALINI Women Fluorescent Green Embroidered Pure Cotton Salwar suit",
-        "price": 3699.0,
+        "price": 3699,
         "description": "Fluorescent green embroidered Kurta with Churidar with dupatta    Kurta design:     Ethnic motifs embroidered   Anarkali shape   Pleated style   Keyhole neck,  three-quarter flared sleeves   Na pockets   Calf length with flared hem   Pure cotton machine weave fabric     Churidar design:     Printed Churidar   Partially elasticated waistband   Zip closure  Pure cottonMachine WashThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "KALINI",
@@ -420,7 +387,7 @@ const products =
     },
     {
         "name": "Indi INSIDE Women Pink Ethnic Motifs Block Printed Anarkali Kurta",
-        "price": 1599.0,
+        "price": 1599,
         "description": "Colour: pinkEthnic motifs solidV-neckThree-quarter, flared sleevesAnarkali shape with pleated styleAnkle length with flared hemMachine weave regular viscose rayonDry Clean The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Indi INSIDE",
@@ -431,7 +398,7 @@ const products =
     },
     {
         "name": "Anouk Women Mustard Yellow & Red Geometric Printed Kurta",
-        "price": 1099.0,
+        "price": 1099,
         "description": "  Colour: mustard yellow and red   Geometric printed   V-neck   Three-quarter,  regular sleeves   Straight shape with regular style   Calf length with straight hem   Machine weave regular cotton  100% CottonMachine wash The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Anouk",
@@ -442,7 +409,7 @@ const products =
     },
     {
         "name": "Varanga Women Red Bandhani Printed Gotta Patti Kurta",
-        "price": 2999.0,
+        "price": 2999,
         "description": "  Colour: red   Bandhani printed   Round neck   Three-quarter,  regular sleeves   Straight shape with regular style   Gotta patti detail   Calf length with straight hem   Machine weave regular cotton  Cotton  Hand wash The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Varanga",
@@ -453,7 +420,7 @@ const products =
     },
     {
         "name": "KALINI Women Pink Floral Embroidered Layered Gotta Patti Kurti with Sharara & With Dupatta",
-        "price": 2999.0,
+        "price": 2999,
         "description": "Pink embroidered Kurti with Sharara with dupattaKurti design: Floral embroideredA-line shapeLayered styleKeyhole neck, three quarter regular sleevesNa pockets gotta patti detailAbove knee length with curved hemViscose rayon machine weave fabricSharara design: Self design ShararaElasticated waistbandZip closureThe model (height 5'8) is wearing a size SMachine Wash",
         "category": "Myntra",
         "brand": "KALINI",
@@ -464,7 +431,7 @@ const products =
     },
     {
         "name": "DIVYANK Women Navy Blue & Grey Ethnic Motifs Printed Mirror Work Kurta with Palazzos",
-        "price": 2999.0,
+        "price": 2999,
         "description": "Navy blue &amp; grey printed Kurta with PalazzosKurta design: Navy blue &amp; gold colouredEthnic motifs printedA-line shapeRegular styleRound neck, three-quarter regular sleevesMirror work detailCalf length with straight hemViscose rayon machine weave fabricPalazzos design: Grey bottom Embroidered PalazzosPartially Elasticated waistbandSlip-on closureTop fabric: Viscose Rayon 100%Bottom fabric: Viscose Rayon 100%Machine washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "DIVYANK",
@@ -475,7 +442,7 @@ const products =
     },
     {
         "name": "Libas Women Lavender Floral Printed Pure Cotton Kurta Set with Dupatta",
-        "price": 2999.0,
+        "price": 2999,
         "description": "Lavender printed Kurta with Trousers with dupatta    Kurta design:     Floral printed   A-line shape   Regular style   Round neck,  three-quarter regular sleeves   2 pockets   Calf length with flared hem   Pure cotton knitted and woven fabric     Trousers design:     Printed Trousers   Partially elasticated waistband   Slip-on closure  Pure CottonMachine-washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Libas",
@@ -486,7 +453,7 @@ const products =
     },
     {
         "name": "Sangria Women Beige & Black Pure Cotton Printed Kurta with Salwar",
-        "price": 2499.0,
+        "price": 2499,
         "description": "ABOUT THE BRANDSangria is a ready-to-wear brand that focuses on a global Indian woman. Sangria has a unique signature style with an electric collection of fabrics, colors, and patterns. The brand has a modern take on traditional Indian motifs and designs with a wide range of offerings.PRODUCT DESCRIPTIONWith the breezy tiered silhouette and printed pattern, this straight kurta will become your go-to outfit. Top it off with these&nbsp;checked salwar and comfortable flatsFEATURESKURTAhas a mandarin neckbutton closurethree-quarter puffed sleevescurved hemside slitsPALAZZOShas partially elasticated waistbandslip-on closureone pocketThe model (height 5'8\") is wearing a size STop fabric: Pure CottonBottom fabric: Pure CottonMachine-wash",
         "category": "Myntra",
         "brand": "Sangria",
@@ -497,7 +464,7 @@ const products =
     },
     {
         "name": "Sangria Women Pink & Golden Printed Pure Cotton Kurta with Trousers",
-        "price": 1899.0,
+        "price": 1899,
         "description": "ABOUT THE BRANDSangria is a ready-to-wear brand that focuses on a global Indian woman. Sangria has a unique signature style with an electric collection of fabrics, colors, and patterns. The brand has a modern take on traditional Indian motifs and designs with a wide range of offerings.PRODUCT DESCRIPTIONFlaunting this summer-ready kurta set, this kurta set beautifully captures your edgy aesthetic. With an ethnic print, and straight hem, this Sangria kurta is one you'll be eager to show off at college, resorts, or anywhere else your heart desires.Pink &amp;gold coloured floral print Kurta with TrousersKurta design: Ethnic motifs printedStraight shapeRegular styleRound neck, three-quarter regular sleevesKnee length with flared&nbsp;hemPure cotton machine weave fabricTrousers design: Solid TrousersPartially elasticated waistbandSlip-on closureThe model (height 5'8\") is wearing a size STop fabric: Pure cottonBottom fabric: Pure cottonHand-wash",
         "category": "Myntra",
         "brand": "Sangria",
@@ -508,7 +475,7 @@ const products =
     },
     {
         "name": "Libas Women Beige & Mustard Yellow Zari Woven Design Straight Kurta Trousers Dupatta",
-        "price": 4499.0,
+        "price": 4499,
         "description": "Our 3-piece beige woven design silk suit set features a straight-fit floral embroidery kurta with a V-neckline and three-quarter sleeves, straight pants with a partially elasticated waistband and roomy pockets, and a chiffon dupatta in a solid tone. Adorned with complementing fabric-trim detailing, Gota Patti accents on the yoke and sleeves, and delicate tassel details on the dupatta, this elegant style is ideal for festive occasions.Size worn by the model: SChest: 32''Waist: 28\"Hips: 33''Height: 5'7\"Silk blend&nbsp;Dupatta fabric:&nbsp;Chiffon&nbsp;Machine Wash",
         "category": "Myntra",
         "brand": "Libas",
@@ -519,7 +486,7 @@ const products =
     },
     {
         "name": "Shae by SASSAFRAS Women Blue & Off-White Printed Anarkali Kurta",
-        "price": 1699.0,
+        "price": 1699,
         "description": "Blue and Off-white printed anarkali kurta, has a keyhole neck, three-quarter sleeves, attached lining and flared hem93% Cotton and 7% linenMachine-washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "Shae by SASSAFRAS",
@@ -530,7 +497,7 @@ const products =
     },
     {
         "name": "Varanga Floral Net I-Spy Lace Kurta Set",
-        "price": 4999.0,
+        "price": 4999,
         "description": "Look stylish when you step out wearing this smart and versatile kurta set. Tailored with an attractive sweetheart neck and sleeveless design, this kurta set is a must-have.&nbsp;Kurta:Stunning magenta toneCharming sweetheart neck Sleeveless Calf length Trend AlertVintage and whimsical, the I-spy lace flaunts the idea of love and uses delicate lace details or trims in borders of the yoke or hem. It even refers to ensembles made from lace coupled with other intricate detailing, like frills, scallop edges, halter neck, and so on.Top Fabric:NetBottom Fabric:NetHand washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Varanga",
@@ -541,7 +508,7 @@ const products =
     },
     {
         "name": "Myshka Women Pink Floral Printed Pure Cotton Kurta with Sharara & Dupatta",
-        "price": 6499.0,
+        "price": 6499,
         "description": "Pink embroidered Kurta with Sharara with dupattaKurta design: Floral printedAnarkali&nbsp; shapeEmpire styleRound neck, sleeveless no sleevesKnee length with flared hemPure cotton knitted fabricSharara design: Printed ShararaElasticated waistbandSlip-on closureDupatta:Printed dupattaSolid borderDupatta: 2.2 x 1.2 metersThe model (height 5'8) is wearing a size SPure CottonMachine Wash",
         "category": "Myntra",
         "brand": "Myshka",
@@ -552,7 +519,7 @@ const products =
     },
     {
         "name": "Anouk Women Pink & Gold-Toned Ethnic Motifs Printed Gotta Patti Kurta",
-        "price": 3099.0,
+        "price": 3099,
         "description": "  Colour: pink and gold-toned   Ethnic motifs printed   V-neck   Three-quarter,  regular sleeves   A-line shape with regular style   Gotta patti detail   Calf length with flared hem   Knitted regular cotton  60'S COTTONMachine wash The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Anouk",
@@ -563,7 +530,7 @@ const products =
     },
     {
         "name": "Indo Era Women Yellow Floral Yoke Design Regular Kurta with Trousers & With Dupatta",
-        "price": 6199.0,
+        "price": 6199,
         "description": "Yellow yoke design Kurta with Trousers with dupatta    Kurta design:     Floral yoke design   Straight shape   Regular style   Round neck,  three-quarter regular sleeves   Calf length with straight hem   Viscose rayon machine weave fabric     Trousers design:     Embroidered Trousers   Partially elasticated waistband   Slip-on closure  The model (height 5'8) is wearing a size STop fabric:  Viscose Rayon  Bottom fabric:  Viscose Rayon  Dupatta fabric:  Organza  Dry clean",
         "category": "Myntra",
         "brand": "Indo Era",
@@ -574,7 +541,7 @@ const products =
     },
     {
         "name": "heemara Women Purple Floral Embroidered Silk Chiffon Kurta with Trousers & With Dupatta",
-        "price": 6599.0,
+        "price": 6599,
         "description": "Purple embroidered Kurta with Trousers with dupatta    Kurta design:     Floral embroidered   Straight shape   Regular style   Round neck,  three-quarter regular sleeves   1 pockets sequinned detail   Calf length with straight hem   Silk chiffon machine weave fabric     Trousers design:     Solid Trousers   Partially elasticated waistband   Slip-on closure  The model (height 5'8) is wearing a size STop fabric: Silk chiffonBottom fabric: Silk chiffonDupatta fabric: Silk chiffonMachine wash",
         "category": "Myntra",
         "brand": "heemara",
@@ -585,7 +552,7 @@ const products =
     },
     {
         "name": "Anouk Purple & White Striped Straight Kurta",
-        "price": 1499.0,
+        "price": 1499,
         "description": "Purple and white&nbsp;stripedstraight shape with short sleevesround neckknee lengthstraight hemregular stylemachine weave cotton&nbsp;cotton  machine washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Anouk",
@@ -596,7 +563,7 @@ const products =
     },
     {
         "name": "HERE&NOW Women White Solid Straight Kurta",
-        "price": 1599.0,
+        "price": 1599,
         "description": "White solid straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, multiple slitsManufacturing Info:&nbsp;Zurick collectionCountry of Origin: IndiaCotton  Machine-washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "HERE&NOW",
@@ -607,7 +574,7 @@ const products =
     },
     {
         "name": "Ahalyaa Women Black Floral Pleated Pure Cotton Kurti with Trousers",
-        "price": 5500.0,
+        "price": 5500,
         "description": "Black solid Kurti with TrousersKurti design: Floral solidPathani shapePleated styleShirt collar, three-quarter roll-up sleeves1 pocketsCalf length with curved hemPure cotton machine weave fabricTrousers design: Printed TrousersPartially elasticated waistbandHand WashThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Ahalyaa",
@@ -618,7 +585,7 @@ const products =
     },
     {
         "name": "Rustorange Women Mustard Yellow Floral Printed Angrakha Kurti with Sharara",
-        "price": 3649.0,
+        "price": 3649,
         "description": "Mustard yellow embroidered Kurti with ShararaKurti design: Floral printedA-line shapeAngrakha styleV-neck, short flared sleeves1 pocketsAbove knee length with flared hemViscose rayon knitted and woven fabricSharara design: Solid ShararaElasticated waistbandZip closureViscose rayonMachine washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Rustorange",
@@ -629,7 +596,7 @@ const products =
     },
     {
         "name": "Varanga Women Lavender Ethnic Motifs Printed Panelled Gotta Patti Pure Cotton Kurti with Sharara & With",
-        "price": 6599.0,
+        "price": 6599,
         "description": "Lavender printed Kurti with Sharara with dupatta    Kurti design:     Ethnic motifs printed   Anarkali shape   Panelled style   Round neck,  sleeveless no sleeves   Gotta patti detail   Above knee length with flared hem   Pure cotton machine weave fabric     Sharara design:     Printed Sharara   Elasticated waistband   Hook and eye closure  The model (height 5'8) is wearing a size STop Fabric:Pure Cotton ,Bottom Fabric:pure cotton ,Dupatta Fabric:Poly ChiffonMachine Wash",
         "category": "Myntra",
         "brand": "Varanga",
@@ -640,7 +607,7 @@ const products =
     },
     {
         "name": "HERE&NOW Women Green & White Ethnic Motifs Printed Kurta",
-        "price": 899.0,
+        "price": 899,
         "description": "Colour: green and whiteEthnic motifs printedRound neckThree-quarter, regular sleevesStraight shape with regular styleCalf length with straight hemMachine weave&nbsp;PolycottonMachine-wash The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "HERE&NOW",
@@ -651,7 +618,7 @@ const products =
     },
     {
         "name": "Varanga Mustard Marigold Cotton Straight Kurta",
-        "price": 2199.0,
+        "price": 2199,
         "description": "This mustard straight kurta is crafted in cotton, features round neck with marigold print all-overAccents&nbsp;thread work on yoke, three-quarter sleevesStraight&nbsp;silhouetteCalf lengthCotton, hand-washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "Varanga",
@@ -662,7 +629,7 @@ const products =
     },
     {
         "name": "Vishudh Women Black & Teal Blue Checked Pure Cotton Kurta with Palazzo & Dupatta",
-        "price": 2399.0,
+        "price": 2399,
         "description": "Black checked Kurti with Trousers with dupatta    Kurti design:     Checked   Straight shape   Regular style   Keyhole neck,  three-quarter regular sleeves   Calf length with straight hem   Pure cotton machine weave fabric     Trousers design:     Printed Trousers   Elasticated waistband   Zip closure  The model (height 5'8) is wearing a size SCottonmachine wash",
         "category": "Myntra",
         "brand": "Vishudh",
@@ -673,7 +640,7 @@ const products =
     },
     {
         "name": "Indo Era Women Green Ethnic Motifs Printed Panelled Gotta Patti Pure Cotton Kurta with Trousers & With",
-        "price": 4399.0,
+        "price": 4399,
         "description": "Green printed Kurta with Trousers with dupattaKurta design: Ethnic motifs printedA-line shapePanelled styleRound neck, three-quarter regular sleevesGotta patti detailCalf length with flared hemPure cotton machine weave fabricTrousers design: Solid TrousersPartially elasticated waistbandSlip-on closureDupatta design:PrintedTaping borderTop fabric:  Pure Cotton  Bottom fabric:  Pure Cotton  Dupatta fabric:  Pure Cotton  Machine washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Indo Era",
@@ -684,7 +651,7 @@ const products =
     },
     {
         "name": "Nayo Women Mustard Printed Straight Kurta With Plazzo  & Dupatta",
-        "price": 3499.0,
+        "price": 3499,
         "description": "Women Mustard &amp; Gold Printed Straight Kurta With Plazzo  &amp; DupattaThe model (height 5'8\") is wearing a size SHand Wash",
         "category": "Myntra",
         "brand": "Nayo",
@@ -695,7 +662,7 @@ const products =
     },
     {
         "name": "Vishudh Women White & Navy Blue Printed Anarkali Kurta",
-        "price": 2149.0,
+        "price": 2149,
         "description": "White and navy blue printed anarkali kurta, has a scoop neck, three-quarter sleeves, flared hemThe model (height 5'8\") is wearing a size SCottonMachine-wash",
         "category": "Myntra",
         "brand": "Vishudh",
@@ -706,7 +673,7 @@ const products =
     },
     {
         "name": "KALINI Women Teal Blue & Golden Printed Kurti with Sharara",
-        "price": 2499.0,
+        "price": 2499,
         "description": "Teal printed Kurti with ShararaKurti design: Abstract printedAnarkali shapeRegular styleRound neck, sleeveless no sleevesKnee length with flared hemViscose rayon machine weave fabricSharara design: Printed ShararaElasticated waistbandSlip-on closureViscose rayonMachine washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "KALINI",
@@ -717,7 +684,7 @@ const products =
     },
     {
         "name": "Stylum Women Pink Ethnic Motifs Printed Pure Cotton Kurta with Trousers & Dupatta",
-        "price": 3200.0,
+        "price": 3200,
         "description": "Pink printed Kurta with Trousers with dupatta    Kurta design:     Ethnic motifs printed   Straight shape   Regular style   Boat neck,  three-quarter regular sleeves   Calf length with straight hem   Pure cotton machine weave fabric     Trousers design:     Printed Trousers   Elasticated waistband   Slip-on closure  Top fabric:  Pure Cotton  Bottom fabric:  Pure Cotton  Dupatta fabric:  Pure Cotton  Machine washDupatta Length: 2mThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Stylum",
@@ -728,7 +695,7 @@ const products =
     },
     {
         "name": "Sangria Women Pink Printed Straight Kurta",
-        "price": 1299.0,
+        "price": 1299,
         "description": "Pink printed straight kurta, has a keyhole neck, three-quarter sleeves, straight hem, side slits100% cottonMachine-washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "Sangria",
@@ -739,7 +706,7 @@ const products =
     },
     {
         "name": "Inddus Women Red Embroidered Kurta with Trousers & Dupatta",
-        "price": 5899.0,
+        "price": 5899,
         "description": "Red embroidered kurta with trousers and dupatta Red straight calf length kurta, has a round neck, three-quarter sleeves, side slitsRed  solid trousers, has partially elasticated waistband, slip-on closureRed solid dupatta, has taping borderThe model (height 5'8\") is wearing a size SKurta fabric: silk blendBottom fabric: cotton blendDupatta fabric: organzaDry-clean",
         "category": "Myntra",
         "brand": "Inddus",
@@ -750,7 +717,7 @@ const products =
     },
     {
         "name": "Indo Era Women Off White & Pink Printed Sequinned Cotton Kurta with Palazzos & Dupatta",
-        "price": 6999.0,
+        "price": 6999,
         "description": "Flaunt your graceful feminine silhouette in this elegant kurta ket. For a touch of ethnic panache, this set's gorgeous printed kurta and solid palazzos come with a beautiful solid palazzos. Kurta design: Ethnic motifs printedStraight shapeRegular styleRound neck, three-quarter regular sleevesSequinned detailCalf length with straight hemPure cotton machine weave fabricPalazzos design: Solid PalazzosPartially elasticated waistband2 pockets&nbsp;Slip-on closureComes with a dupattaTrend AlertA trend that is going to last forever, white romance is effortless and elegant. It is a regal combination of white with understated tones of silver and bronze, and is characterized by graceful frills, ruffles, and tiering. This sophisticated style is the right choice for breezy summer occasions.Top fabric:  Pure Cotton  Bottom fabric:  Cotton Blend  Dupatta fabric:  Organza  Dry cleanThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Indo Era",
@@ -761,7 +728,7 @@ const products =
     },
     {
         "name": "anayna Women Blue & White Geometric Screen Print Cotton Fusion Kurta",
-        "price": 1660.0,
+        "price": 1660,
         "description": "Colour: blue and whiteGeometric screen printed with striped detailShoulder strapsStraight shape with regular styleKnee length with straight hemMachine weave regular cottonSide slitsCotton kanthaMachine washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "anayna",
@@ -772,7 +739,7 @@ const products =
     },
     {
         "name": "Biba Women Mustard Yellow & Pink Floral Printed Pure Cotton Straight Kurta",
-        "price": 1999.0,
+        "price": 1999,
         "description": "Colour: mustard yellow and pinkFloral printU-neckSleevelessStraight shape with side slitsCalf length with straight hemMachine weave regular cotton100% cottonHand-washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Biba",
@@ -783,7 +750,7 @@ const products =
     },
     {
         "name": "Anouk Women Charcoal Grey Pure Cotton Printed Pleated Top with Palazzos",
-        "price": 1899.0,
+        "price": 1899,
         "description": "Charcoal grey printed Top with PalazzosTop design: Floral printedA-line shapePleated styleRound neck, sleevelessAbove knee length with flared hemPure cotton machine weave fabricPalazzos design: Solid PalazzosPartially elasticated waistbandSlip-on closureThe model (height 5'8) is wearing a size STop fabric:  Pure Cotton  Bottom fabric:  Pure Cotton  Machine wash",
         "category": "Myntra",
         "brand": "Anouk",
@@ -794,7 +761,7 @@ const products =
     },
     {
         "name": "Yufta Women Lavender & White Ethnic Motifs Printed Kurta with Trousers & Dupatta",
-        "price": 3499.0,
+        "price": 3499,
         "description": "Lavender &amp; White printed Kurta with Trousers with dupattaKurta design: Ethnic motifs printedStraight shapeRegular styleRound neck, three-quarter regular sleevesCalf length with straight hemPure cotton machine weave fabricTrousers design: Printed TrousersElasticated waistbandSlip-on closureTop fabric:  Pure Cotton  Bottom fabric:  Pure Cotton  Dupatta fabric:  Voile  Hand washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Yufta",
@@ -805,7 +772,7 @@ const products =
     },
     {
         "name": "Indo Era Women Pink Ethnic Motifs Embroidered Kurta with Trousers & Dupatta",
-        "price": 5999.0,
+        "price": 5999,
         "description": "Pink embroidered Kurta with Trousers with dupattaKurta design: Ethnic motifs embroideredStraight shapeRegular styleRound neck, three-quarter regular sleevesCalf length with straight hemCotton blend machine weave fabricTrousers design: Solid TrousersPartially elasticated waistbandSlip-on closure1 pocketsDupatta Lenght : 2.3m, Dupatta Width : 85 cmSize worn by the model: SChest: 32\"Waist: 28\"Hips: 33\"Height: 5'7\"Cotton BlendOrganza&nbsp;Machine Wash",
         "category": "Myntra",
         "brand": "Indo Era",
@@ -816,7 +783,7 @@ const products =
     },
     {
         "name": "Prakhya Women Pink Self Design Kurta with Trousers & Dupatta",
-        "price": 3298.0,
+        "price": 3298,
         "description": "Pink self design kurta with trousersPink straight calf length kurta, has a round neck, three-quarter sleeves, side slitsPink Solid trousers, has elasticated waistbandPink solid Dupatta with Tasselled borderDupatta:Length: 2 mWidth: 1.14 mThe model (height 5'8\") is wearing a size SKurta fabric: viscose rayonBottom fabric: viscose rayonDupatta fabric: silk chiffonHand-wash",
         "category": "Myntra",
         "brand": "Prakhya",
@@ -827,7 +794,7 @@ const products =
     },
     {
         "name": "Nayo Women Navy Blue Ethnic Motifs Printed Cotton Kurta",
-        "price": 1299.0,
+        "price": 1299,
         "description": "  Colour: navy blue   Ethnic motifs printed   Round neck   Three-quarter,  regular sleeves   Straight shape with regular style   Calf length with straight hem   Machine weave regular cotton  CottonHand Wash The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Nayo",
@@ -838,7 +805,7 @@ const products =
     },
     {
         "name": "Indo Era Women Blue Floral Printed Regular Pure Cotton Kurta with Palazzos & With Dupatta",
-        "price": 3499.0,
+        "price": 3499,
         "description": "Blue printed Kurta with Palazzos with dupatta    Kurta design:     Floral printed   Straight shape   Regular style   Round neck,  three-quarter regular sleeves   Calf length with straight hem   Pure cotton machine weave fabric     Palazzos design:     Solid Palazzos   Partially elasticated waistband   Slip-on closure  The model (height 5'8) is wearing a size STop fabric:  Pure Cotton  Bottom fabric:  Pure Cotton  Dupatta fabric:  Pure Cotton  Dry clean",
         "category": "Myntra",
         "brand": "Indo Era",
@@ -849,7 +816,7 @@ const products =
     },
     {
         "name": "Anouk Women Lime Green & Blue Printed A-Line Kurta",
-        "price": 1599.0,
+        "price": 1599,
         "description": "Lime Green and Blue printed A-line kurta, has a round neck, three-quarter sleeves, and flared hemThis kurta can also be styled as a dressMaterial: 100% cotton &nbsp;&nbsp;Machine WashThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "Anouk",
@@ -860,7 +827,7 @@ const products =
     },
     {
         "name": "Meeranshi Women Green Striped Straight Kurta",
-        "price": 1399.0,
+        "price": 1399,
         "description": "Green striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, and side slitsThe model (height 5'8\") is wearing a size SViscose RayonHand-wash",
         "category": "Myntra",
         "brand": "Meeranshi",
@@ -871,7 +838,7 @@ const products =
     },
     {
         "name": "Khushal K Women Green Ethnic Motifs Printed Gotta Patti Kurta with Trousers & Dupatta",
-        "price": 5699.0,
+        "price": 5699,
         "description": "Green printed Kurta with Trousers with dupattaKurta design: Ethnic motifs printedAnarkali shapePanelled styleRound neck, three-quarter flared sleevesGotta patti detailFloor length with flared hemViscose rayon machine weave fabricTrousers design: Printed TrousersElasticated waistbandSlip-on closureDupatta:Printed dupattaPrinted borderThe model (height 5'8) is wearing a size S100% RayonMachine Wash",
         "category": "Myntra",
         "brand": "Khushal K",
@@ -882,7 +849,7 @@ const products =
     },
     {
         "name": "Libas Women Green & Gold-Toned Geometric Print Gotta Patti Kurta with Skirt & Dupatta",
-        "price": 3999.0,
+        "price": 3999,
         "description": "Our 3-piece dark green printed suit set, crafted in soft rayon fabric features a straight-fit kurta with a round neckline and three-quarter sleeves, a floral print flowy skirt with a partially elasticated waistband, and a complementing dupatta in a solid tone. Adorned with delicate fabric-trim detailing and Gota Patti accents, this elegant style is ideal for intimate gatherings.Top fabric: Viscose RayonBottom fabric: Viscose RayonDupatta Fabric: Poly chiffonMachine WashSize worn by the model: SChest: 32''Waist: 28\"Hips: 33''Height: 5'7\"",
         "category": "Myntra",
         "brand": "Libas",
@@ -893,7 +860,7 @@ const products =
     },
     {
         "name": "mokshi Ethnic Motifs Viscose Rayon Kurta Set",
-        "price": 3899.0,
+        "price": 3899,
         "description": "Embrace sartorial elegance with this modish kurta set. Including a square neck and three-quarter bell sleeves, this kurta set will enhance your look.&nbsp;Kurta:Gorgeous green shadeBeautiful square neck Three-quarter bell sleevesAbove knee Trend AlertEthnic motifs can be small and intricate or bold and large patterns that are designed on fabrics. They are widely worn by people of distinct cultures to make a statement and represent their background. Often designed in vivid colours and shapes, motifs are inspired by nature, different cultures, and religions as well.100% RayonThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "mokshi",
@@ -904,7 +871,7 @@ const products =
     },
     {
         "name": "Anouk Women Purple Thread Work Kurta with Trousers & With Dupatta",
-        "price": 4299.0,
+        "price": 4299,
         "description": "Purple solid Kurta with Trousers with dupatta    Kurta design:     Woven design solid   Straight shape   Regular style   Round neck,  three-quarter regular sleeves   Thread work detail   Knee length with straight hem   Viscose rayon machine weave fabric     Trousers design:     Solid Trousers   Partially elasticated waistband   Slip-on closure  Top fabric: 87% Viscose Rayon, 13%&nbsp;PolyesterBottom fabric: 87% Viscose Rayon, 13%&nbsp;PolyesterDupatta fabric: 91% Polyester, 9% Metallic fibreHand washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Anouk",
@@ -915,7 +882,7 @@ const products =
     },
     {
         "name": "Biba Women Mustard Yellow & Golden Ethnic Motifs Printed Kurta with Palazzos & Dupatta",
-        "price": 3999.0,
+        "price": 3999,
         "description": "Mustard yellow and golden printed Kurta with Palazzos and dupattaKurta design: Ethnic motifs printedStraight shapeRegular styleTie-up neckThree-quarter regular sleevesCalf length with straight hemSide slitsPoly chanderi machine weave fabricAn attached liningPalazzos design: Solid PalazzosPartially elasticated waistbandDrawstring closureDupatta designSolid dupattaTassellled borderKurta fabric: 100% polyesterKurta lining: 100% cottonBottom fabric: 100% cottonDupatta fabric: Poly chiffonDry-cleanSize worn by the model: 32Chest: 33.5\"Waist: 26\"Hips: 36\"Height: 5'7\"",
         "category": "Myntra",
         "brand": "Biba",
@@ -926,7 +893,7 @@ const products =
     },
     {
         "name": "Libas Women Red & Gold-Toned Ethnic Motifs Printed Kurta",
-        "price": 1399.0,
+        "price": 1399,
         "description": "  Colour: red and gold-toned   Ethnic motifs printed   Round neck   Three-quarter,  regular sleeves   Straight shape with regular style   Calf length with straight hem   Machine weave regular viscose rayon  Hand wash cold washSize worn by the model: SChest: 32\"Height: 5'7\"",
         "category": "Myntra",
         "brand": "Libas",
@@ -937,7 +904,7 @@ const products =
     },
     {
         "name": "Anubhutee Women Green & Blue Printed Kurta with Trousers",
-        "price": 2989.0,
+        "price": 2989,
         "description": "Green and blue printed kurta with trousersGreen and blue printed straight calf length kurta with embroidered and sequinned detail, has a round neck, three-quarter sleeves, straight hem, side slitsGreen and blue printed trousers, has partially elasticated waistband, drawstring closureThe model (height 5'8\") is wearing a size STop fabric: Pure CottonBottom fabric: Viscose RayonHand-wash",
         "category": "Myntra",
         "brand": "Anubhutee",
@@ -948,7 +915,7 @@ const products =
     },
     {
         "name": "Divena Women Pink Floral Embroidered Regular Gotta Patti Pure Cotton Kurta with Sharara & With Dupatta",
-        "price": 7999.0,
+        "price": 7999,
         "description": "Pink embroidered Kurta with Sharara with dupatta    Kurta design:     Floral embroidered   Anarkali shape   Regular style   Round neck,  sleeveless shoulder straps   Gotta patti detail   Calf length with flared hem   Pure cotton machine weave fabric     Sharara design:     Printed Sharara   Elasticated waistband   Slip-on closure  Pure CottonHand WashThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Divena",
@@ -959,7 +926,7 @@ const products =
     },
     {
         "name": "Varanga Women Pink & White Leheriya Printed Angrakha Kurta With Embroidery",
-        "price": 3599.0,
+        "price": 3599,
         "description": "  Colour:  pink &amp; white   Three-quarter sleeves regular sleeves   V-neck   Ankle length   Flared hem  A-line shape with angrakha style   Machine weave regular cotton      cotton  hand washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Varanga",
@@ -970,7 +937,7 @@ const products =
     },
     {
         "name": "Indo Era Women Burgundy & Golden Ethnic Motifs Yoke Design Kurta",
-        "price": 2699.0,
+        "price": 2699,
         "description": "Colour: burgundy and goldenEthnic motifs yoke designRound neckThree-quarter, regular sleevesStraight shape with regular styleCalf length with straight hemMachine weave regular polyesterPolyester  Dry clean The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Indo Era",
@@ -981,7 +948,7 @@ const products =
     },
     {
         "name": "Myshka Women Black & White Striped Straight Kurta",
-        "price": 1699.0,
+        "price": 1699,
         "description": "Black and white striped straight kurta, has a mandarin collar, three-quarter sleeves, straight hem, side slits, half button placketCotton Machine-washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "Myshka",
@@ -992,7 +959,7 @@ const products =
     },
     {
         "name": "Nayo Women Navy Blue & Pink Floral Printed Pure Cotton Kurta with Trousers & With Dupatta",
-        "price": 3749.0,
+        "price": 3749,
         "description": "Navy blue printed Kurta with Trousers with dupattaKurta design: Floral printedAnarkali shapeRegular styleBoat neck, three-quarter regular sleeves1 pocketsCalf length with flared hemPure cotton machine weave fabricTrousers design: Printed TrousersElasticated waistbandSlip-on closureComes with dupattaKurta fabric: Pure CottonBottom fabric: Pure cottonDupatta fabric: Cotton blendHand WashDupatta length: 2.4 meters width: 1.01 meter (approx)The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Nayo",
@@ -1003,7 +970,7 @@ const products =
     },
     {
         "name": "AHIKA Women Orange & Pink Digital Print Straight Kurta",
-        "price": 860.0,
+        "price": 860,
         "description": "Orange, pink and white printed straight kurta, has a round neck, three-quarter sleeves, straight hem, side slitsPolyester crepeMachine-washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "AHIKA",
@@ -1014,7 +981,7 @@ const products =
     },
     {
         "name": "Biba Women Green Ethnic Motifs Printed Regular Pure Cotton Kurta with Palazzos & With Dupatta",
-        "price": 4995.0,
+        "price": 4995,
         "description": "Green printed Kurta with Palazzos with dupatta    Kurta design:     Ethnic motifs printed   Anarkali shape   Regular style   Round neck,  three-quarter regular sleeves   Calf length with flared hem   Pure cotton machine weave fabric   With mask     Palazzos design:     Solid Palazzos   Elasticated waistband   Drawstring closure   Comes with a with mask  The model (height 5'8) is wearing a size STop fabric:  Pure Cotton  Bottom fabric:  Pure Cotton  Dupatta fabric:  Poly Chiffon  Hand wash",
         "category": "Myntra",
         "brand": "Biba",
@@ -1025,7 +992,7 @@ const products =
     },
     {
         "name": "Inddus Women Wine Self Design Anarkali Kurta with Printed Organza Dupatta",
-        "price": 5999.0,
+        "price": 5999,
         "description": "Inddus Women Wine Self Design Anarkali Kurta with Printed Organza Dupatta and Embellished BeltTop:Chiffon,Inner:Shantun,Dupatta:Organza,Embellished Belt,Dry Clean",
         "category": "Myntra",
         "brand": "Inddus",
@@ -1036,7 +1003,7 @@ const products =
     },
     {
         "name": "Indo Era Women Black & Golden Ethnic Motifs Yoke Design Kurta with Palazzos & With Dupatta",
-        "price": 3999.0,
+        "price": 3999,
         "description": "Black yoke design Kurta with Palazzos with dupattaKurta design: SolidYoke designStraight shapeRegular styleKeyhole neckThree-quarter regular sleevesCalf length&nbsp;Straight hemCotton blend machine weave fabricPalazzos design: Solid PalazzosPartially elasticated waistbandSlip-on closureComes with a printed dupattaThe model (height 5'8) is wearing a size STop fabric:  Cotton Blend  Bottom fabric:  Cotton Blend  Dupatta fabric:  Cotton Blend  Dry clean",
         "category": "Myntra",
         "brand": "Indo Era",
@@ -1047,7 +1014,7 @@ const products =
     },
     {
         "name": "Libas Women Blue & White Geometric Printed Pleated Cotton Kaftan Kurti with Trousers",
-        "price": 1999.0,
+        "price": 1999,
         "description": "Blue and white printed Kurti with TrousersKurti design: Geometric printedKaftan shapePleated styleBand collar, three-quarter flared sleevesAbove knee length with asymmetric hemPure cotton machine weave fabricTrousers design: Printed TrousersPartially elasticated waistband2 pocketsSlip-on closureSize worn by the model: SChest: 32''Waist: 28\"Hips: 33''Height: 5'7\"Cotton&nbsp;Machine Wash",
         "category": "Myntra",
         "brand": "Libas",
@@ -1058,7 +1025,7 @@ const products =
     },
     {
         "name": "Anouk Women White Ethnic Motifs Printed Pleated Pure Cotton Kurta with Trousers",
-        "price": 3299.0,
+        "price": 3299,
         "description": "White printed Kurta with Trousers    Kurta design:     Ethnic motifs printed   A-line shape   Pleated style   Round neck,  three-quarter regular sleeves   Above knee length with flared hem   Pure cotton machine weave fabric     Trousers design:     Solid Trousers   Partially elasticated waistband   Slip-on closure  The model (height 5'8) is wearing a size STop fabric:  Pure Cotton  Bottom fabric:  Pure Cotton  Machine wash",
         "category": "Myntra",
         "brand": "Anouk",
@@ -1069,7 +1036,7 @@ const products =
     },
     {
         "name": "Indo Era Women Green Ethnic Motifs Yoke Design Kurta with Palazzos & With Dupatta",
-        "price": 6599.0,
+        "price": 6599,
         "description": "Green yoke design Kurta with Palazzos with dupatta    Kurta design:     Ethnic motifs yoke design   Anarkali shape   Regular style   Band collar,  three-quarter regular sleeves   Calf length with flared hem   Viscose rayon machine weave fabric     Palazzos design:     Solid Palazzos   Partially elasticated waistband   Slip-on closure  Top fabric:  Viscose Rayon  Bottom fabric:  Viscose Rayon  Dupatta fabric:  Poly Chiffon  Dry cleanThe model (height 5'8) is wearing a size SDupatta length : 2.3 M,Width : 0.85 cm",
         "category": "Myntra",
         "brand": "Indo Era",
@@ -1080,7 +1047,7 @@ const products =
     },
     {
         "name": "Varanga Women Purple & Off White Leheriya Striped Gotta Patti Kurta",
-        "price": 3299.0,
+        "price": 3299,
         "description": "  Colour: purple and off white   Leheriya striped   Round neck   Three-quarter,  regular sleeves   Straight shape with regular style   Gotta patti detail   Calf length with straight hem   Machine weave regular cotton  Cotton  Hand wash The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Varanga",
@@ -1091,7 +1058,7 @@ const products =
     },
     {
         "name": "Shae by SASSAFRAS Women Mauve & White Bandhani Printed Gotta Patti Anarkali Kurta",
-        "price": 1999.0,
+        "price": 1999,
         "description": "  Colour: mauve and white   Bandhani printed   Tie-up neck   Three-quarter,  regular sleeves   Anarkali shape with pleated style   Gotta patti detail   Calf length with flared hem   Machine weave regular cotton  100% CottonSize worn by the model: SChest: 30\"Height: 5'11\"",
         "category": "Myntra",
         "brand": "Shae by SASSAFRAS",
@@ -1102,7 +1069,7 @@ const products =
     },
     {
         "name": "Rajnandini Women Blue Abstract Kurta with Patiala & Dupatta",
-        "price": 2663.0,
+        "price": 2663,
         "description": "Blue solid Kurta with Patiala &amp; dupattaKurta design: Abstract printedStraight shapeRegular styleRound neck, three-quarter regular sleevesKnee length with straight hemCotton blend machine weave fabricPatiala design: Printed PatialaSlip-on closureDupatta:Abstract printed&nbsp;Printed borderDupatta Size : 2 Meter , Sleeves Length : 17 InchesThe model (height 5'8) is wearing a size SFabric : Top - CottonBottom - Cotton&nbsp;Dupatta -Cotton",
         "category": "Myntra",
         "brand": "Rajnandini",
@@ -1113,7 +1080,7 @@ const products =
     },
     {
         "name": "Anouk Women Black Printed Kurta with Trousers",
-        "price": 2499.0,
+        "price": 2499,
         "description": "Black printed kurta with trousersBlack printed straight calf length kurta, has a round neck, three-quarter sleeves, button closure, straight hem, side slitsBlack Solid trousers, has partially elasticated waistband, slip-on closureThe model (height 5'8\") is wearing a size STop fabric: Pure CottonBottom fabric: Pure CottonHand-wash",
         "category": "Myntra",
         "brand": "Anouk",
@@ -1124,7 +1091,7 @@ const products =
     },
     {
         "name": "Jaipur Kurti Women Pink Floral Gotta Patti Pure Cotton Kurta with Trousers & Dupatta",
-        "price": 4649.0,
+        "price": 4649,
         "description": "Pink solid Kurta with Trousers with dupattaKurta design: Floral printedAnarkali shapeRegular styleV-neck, short regular sleeves2 pockets gotta patti detailFloor length with flared hemPure cotton machine weave fabricTrousers design: Printed TrousersPartially elasticated waistbandSlip-on closureDupatta:Solid dupattaTaping borderPure CottonHand WashThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Jaipur Kurti",
@@ -1135,7 +1102,7 @@ const products =
     },
     {
         "name": "Biba Women Blue Ethnic Motifs Printed Pure Cotton Kurta with Palazzos & Dupatta",
-        "price": 3999.0,
+        "price": 3999,
         "description": "Blue printed Kurta with Palazzos with dupatta    Kurta design:     Ethnic motifs printed   Straight shape   Regular style   V-neck,  three-quarter regular sleeves   Calf length with straight hem   Pure cotton machine weave fabric     Palazzos design:     Printed Palazzos   Partially elasticated waistband   Drawstring closure  Top fabric: Pure CottonBottom fabric: Pure CottonDupatta fabric: Pure Cotton&nbsp;Hand washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Biba",
@@ -1146,7 +1113,7 @@ const products =
     },
     {
         "name": "Yuris Women Pink & White Printed Kurta with Palazzos & Dupatta",
-        "price": 4299.0,
+        "price": 4299,
         "description": "Pink and white printed kurta with palazzos and dupattaPink and white straight calf length kurta, has a round neck, three-quarter sleeves, side slitsPink and white printed palazzos, has elasticated waistband, slip-on closurePink solid dupatta, has tassels borderThe model (height 5'8\") is wearing a size SKurta fabric: pure cottonBottom fabric: pure cottonDupatta fabric: pure cottonHand-wash",
         "category": "Myntra",
         "brand": "Yuris",
@@ -1157,7 +1124,7 @@ const products =
     },
     {
         "name": "KALINI Women Black Geometric Checked Thread Work Straight Kurta",
-        "price": 1499.0,
+        "price": 1499,
         "description": "Colour: blackGeometricRound neckThree-quarter, regular sleevesStraight shape with regular styleThread work detailCalf length with straight hemMachine weave regular cottonCottonHand wash The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "KALINI",
@@ -1168,7 +1135,7 @@ const products =
     },
     {
         "name": "Libas Women Blue Sequinned Detail Kurta with Palazzos & Dupatta",
-        "price": 3999.0,
+        "price": 3999,
         "description": "Blue solid Kurta with Palazzos and dupattaKurta design: SolidStraight shapeRegular styleRound neck, three-quarter regular sleevesSequinned detail and mirror-workKnee length with straight hemPoly georgette machine weave fabricPalazzos design: Embroidered Palazzos with mirror-workPartially elasticated waistbandSlip-on closure2 pocketsDupatta designSolid dupatta with sequinsTop fabric:  Poly Georgette  Bottom fabric:  Poly Georgette  Dupatta fabric:  Net  Machine washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Libas",
@@ -1179,7 +1146,7 @@ const products =
     },
     {
         "name": "Biba Women Black Floral Printed Panelled Pure Cotton Kurta with Palazzos & With Dupatta",
-        "price": 5995.0,
+        "price": 5995,
         "description": "Black printed Kurta with Palazzos with dupatta    Kurta design:     Floral printed   Anarkali shape   Panelled style   Round neck,  three-quarter regular sleeves   Calf length with flared hem   Pure cotton machine weave fabric   With mask     Palazzos design:     Solid Palazzos   Elasticated waistband   Drawstring closure   Comes with a with mask  The model (height 5'8) is wearing a size STop fabric:  Pure Cotton  Bottom fabric:  Pure Cotton  Dupatta fabric:  Pure Cotton  Hand wash",
         "category": "Myntra",
         "brand": "Biba",
@@ -1190,7 +1157,7 @@ const products =
     },
     {
         "name": "Vbuyz Women Blue Ethnic Motifs Panelled Kurti with Trousers & With Dupatta",
-        "price": 4999.0,
+        "price": 4999,
         "description": "Blue self design Kurti with Trousers with dupatta with dupatta   Kurti design:     Ethnic motifs self design   A-line shape   Panelled style   V-neck,  short flared sleeve   Calf length with flared hem   Cotton blend machine weave fabric     Trousers design:     Printed Trousers   Elasticated waistband   Drawstring closure   Comes with a   Dupatta length: 2 metres (approx.)  The model (height 58) is wearing a size STop fabric:  Cotton Blend  Bottom fabric:  Cotton Blend  Dupatta fabric:  Cotton Blend  Dry clean",
         "category": "Myntra",
         "brand": "Vbuyz",
@@ -1201,7 +1168,7 @@ const products =
     },
     {
         "name": "Ishin Women Teal Embroidered Regular Sequinned Pure Cotton Kurta with Sharara & With Dupatta",
-        "price": 7299.0,
+        "price": 7299,
         "description": "Teal embroidered Kurta with Sharara with dupatta    Kurta design:     Colourblocked embroidered   A-line shape   Regular style   Round neck,  three-quarter regular sleeves   Sequinned detail   Calf length with straight hem   Pure cotton machine weave fabric     Sharara design:     Printed Sharara   Elasticated waistband   Slip-on closure  Pure silkDry CleanThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Ishin",
@@ -1212,7 +1179,7 @@ const products =
     },
     {
         "name": "Bhama Couture Women Blue & White Bandhani Printed Kurta with Palazzos",
-        "price": 3599.0,
+        "price": 3599,
         "description": "Blue and white printed kurta with palazzosBlue and white bandhani printed A-line calf length kurta with gotta patti and panelled detail, has a tie-up neck, three-quarter sleeves, flared hemBlue and white printed palazzos, slip-on closureThe model (height 5'8\") is wearing a size STop fabric: Pure CottonBottom fabric: Pure CottonMachine-wash",
         "category": "Myntra",
         "brand": "Bhama Couture",
@@ -1223,7 +1190,7 @@ const products =
     },
     {
         "name": "Stylum Women Mustard Yellow Ethnic Motifs Yoke Design Pleated Gotta Patti Kurti with Dhoti Pants",
-        "price": 2600.0,
+        "price": 2600,
         "description": "Mustard yellow yoke design Kurti with Dhoti Pants    Kurti design:     Ethnic motifs yoke design   A-line shape   Pleated style   Round neck,  long regular sleeves   Gotta patti detail   Above knee length with flared hem   Viscose rayon machine weave fabric     Dhoti Pants design:     Printed Dhoti Pants   Elasticated waistband   Slip-on closure  Top fabric:  Viscose Rayon  Bottom fabric:  Cotton Blend  Machine washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Stylum",
@@ -1234,7 +1201,7 @@ const products =
     },
     {
         "name": "KALINI Women Blue Ethnic Motifs Printed Floral Anarkali Kurta",
-        "price": 1999.0,
+        "price": 1999,
         "description": "Colour: blueEthnic motifs printedRound neckThree-quarter, regular&nbsp;sleevesAnarkali shape with empire styleSequinned detailAnkle length with flared hemMachine weave regular viscose rayonReady to wear The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "KALINI",
@@ -1245,7 +1212,7 @@ const products =
     },
     {
         "name": "Indo Era Women Peach-Coloured & Pink Pure Cotton Printed Kurta with Trousers & Dupatta",
-        "price": 5299.0,
+        "price": 5299,
         "description": "This ravishing kurta set will make for a great addition to your ethnic wear closet. This set's printed kurta and printed dupatta with solid border enhance your allure, while the printed kurta offer a flattering fit. Kurta design: Ethnic motifs printedStraight shapeRegular styleV-neck, three-quarter regular sleevesCalf length with straight hemPure cotton machine weave fabricTrousers design: Solid TrousersPartially elasticated waistbandSlip-on closureTwo pocketsDupatta designPrinted dupattaTop fabric:  Pure Cotton  Bottom fabric:  Pure Cotton  Dupatta fabric:  Pure Cotton  Dry cleanThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Indo Era",
@@ -1256,7 +1223,7 @@ const products =
     },
     {
         "name": "House of Pataudi Women Purple & Gold-Toned Embroidered Kurta Set",
-        "price": 5999.0,
+        "price": 5999,
         "description": "Purple and gold-toned embroidered kurta with trousersPurple and gold-toned A-line calf length kurta, has a round neck, three-quarter sleeves, flared hemPurple solid trousers has a partially elasticated waistband, slip on closurePurple solid dupatta, has laced borderThe model (height 5'8\") is wearing a size SKurta fabric: 100% PolyesterBottom fabric: 100% PolyesterDupatta fabric: 100% PolyesterMachine-wash",
         "category": "Myntra",
         "brand": "House of Pataudi",
@@ -1267,7 +1234,7 @@ const products =
     },
     {
         "name": "Libas Women White Printed Kurti with Sharara & Dupatta",
-        "price": 3399.0,
+        "price": 3399,
         "description": "Look charming and elegant when you wear this kurta set. Including a gorgeous printed kurta, this set is also accompanied by snug printed sharara and an attractive printed dupatta with taped border.  White straight above knee kurta, has a round neck, three-quarter sleeves, side slitsWhite  printed sharara, has partially elasticated waistband, slip-on closureWhite printed dupatta, has taping borderDupatta Length: 2.5 mDupatta Width: 1.1 mThe model (height 5'8\") is wearing a size SKurta fabric: pure cottonBottom fabric: pure cottonDupatta fabric: pure cottonMachine-wash",
         "category": "Myntra",
         "brand": "Libas",
@@ -1278,7 +1245,7 @@ const products =
     },
     {
         "name": "Anouk Women Green & White Ethnic Motifs Printed Cotton Kurta",
-        "price": 1099.0,
+        "price": 1099,
         "description": "  Colour: green and white   Ethnic motifs printed   Mandarin collar   Three-quarter,  regular sleeves   Straight shape with regular style   Calf length with straight hem   Machine weave regular cotton  Cotton  Machine wash The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Anouk",
@@ -1289,7 +1256,7 @@ const products =
     },
     {
         "name": "Indo Era Women Pink Floral Embroidered Kurta with Palazzos & With Dupatta",
-        "price": 6199.0,
+        "price": 6199,
         "description": "Pink embroidered Kurta with Palazzos with dupatta    Kurta design:     Floral embroidered   Straight shape   Regular style   Round neck,  three-quarter regular sleeves   Calf length with straight hem   Viscose rayon machine weave fabric     Palazzos design:     Solid Palazzos   Partially elasticated waistband   Slip-on closure  Top fabric:  Viscose Rayon  Bottom fabric:  Viscose Rayon  Dupatta fabric:  Silk Chiffon  Dry cleanThe model (height 5'8) is wearing a size SDupatta length : 2.3 M,Width : 0.85 cm",
         "category": "Myntra",
         "brand": "Indo Era",
@@ -1300,7 +1267,7 @@ const products =
     },
     {
         "name": "KALINI Women Green Floral Printed Gotta Patti Kurta with Sharara",
-        "price": 2499.0,
+        "price": 2499,
         "description": "Green printed Kurta with ShararaKurta design: Floral printedStraight shapeRegular styleV-neck, sleeveless, shoulder strapsGotta patti detailCalf length with straight hemViscose rayon machine weave fabricSharara design: Printed ShararaElasticated waistbandSlip-on closureThe model (height 5'8) is wearing a size SViscose RayonMachine wash",
         "category": "Myntra",
         "brand": "KALINI",
@@ -1311,7 +1278,7 @@ const products =
     },
     {
         "name": "Varanga Women Black & White Geometric Printed Bell Sleeves Kurta",
-        "price": 1799.0,
+        "price": 1799,
         "description": "Colour: blackthree-quarter bell sleeves.&nbsp; mandarin collar, calf length straight hem shape with regular style machine weave cottoncottonhand washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Varanga",
@@ -1322,7 +1289,7 @@ const products =
     },
     {
         "name": "AHIKA Women Pink & White Bandhani Print Pure Cotton Kurta with Trousers & Dupatta",
-        "price": 4247.0,
+        "price": 4247,
         "description": "Pink and white print Kurta with Trousers and dupattaKurta design: Bandhani printedStraight shapeRegular styleRound neck, three-quarter regular sleeves1 pockets gotta patti detailCalf length with straight hemPure cotton machine weave fabricTrousers design: Printed TrousersPartially elasticated waistbandDrawstring closureComes with a dupattaThe model (height 5'8) is wearing a size STop fabric:  Pure Cotton  Bottom fabric:  Pure Cotton  Dupatta fabric:  Pure Cotton  Hand wash",
         "category": "Myntra",
         "brand": "AHIKA",
@@ -1333,7 +1300,7 @@ const products =
     },
     {
         "name": "Libas Women Blue Floral Printed Pure Cotton Kurta with Trousers & With Dupatta",
-        "price": 2999.0,
+        "price": 2999,
         "description": "Our 3-piece blue printed cotton suit set features a straight-fit floral print kurta with a round neckline and three-quarter sleeves, straight pants with a partially elasticated waistband and roomy pockets, and a dupatta in a complementing print. Elevated with delicate fabric and lace-trim detailing, this smart style is perfect for work and beyond.Size worn by the model: SChest: 32''Waist: 28\"Hips: 33''Height: 5'7\"Gentle Machine Wash",
         "category": "Myntra",
         "brand": "Libas",
@@ -1344,7 +1311,7 @@ const products =
     },
     {
         "name": "Vishudh Women Yellow Striped Regular Pure Cotton Kurta with Palazzos",
-        "price": 2199.0,
+        "price": 2199,
         "description": "Yellow striped Kurta with Palazzos    Kurta design:     Solid striped   Straight shape   Regular style   Tie-up neck,  three-quarter regular sleeves   Calf length with straight hem   Pure cotton machine weave fabric     Palazzos design:     Printed Palazzos   Elasticated waistband   Slip-on closure  Top fabric:  Pure Cotton  Bottom fabric:  Pure Cotton  Machine washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Vishudh",
@@ -1355,7 +1322,7 @@ const products =
     },
     {
         "name": "Nayo Women Green Printed Kurta with Trousers & Dupatta",
-        "price": 3499.0,
+        "price": 3499,
         "description": "Green printed kurta with trousers and dupatta Green A-line above knee kurta, has a keyhole neck, three-quarter sleeves, side slitsGreen  printed trousers, has elasticated waistband, slip-on closureGreen printed dupatta, has printed borderThe model (height 5'8\") is wearing a size SKurta fabric: pure cottonBottom fabric: pure cottonDupatta fabric: pure cottonHand-wash",
         "category": "Myntra",
         "brand": "Nayo",
@@ -1366,7 +1333,7 @@ const products =
     },
     {
         "name": "Indo Era Women Black & Teal Blue Yoke Design Kurta with Palazzos & Dupatta",
-        "price": 2799.0,
+        "price": 2799,
         "description": "Black and teal yoke design kurta with palazzos and dupattaBlack and teal straight calf length kurta, has a round neck, three-quarter sleeves, side slits, straight hemBlack solid palazzos, has partially elasticated waistband, slip-on closure, one pocketTeal blue and golden self design dupatta, has tassels borderThe model (height 5'8\") is wearing a size SKurta fabric: polyesterBottom fabric: polyesterDupatta fabric: art silkDry-clean",
         "category": "Myntra",
         "brand": "Indo Era",
@@ -1377,7 +1344,7 @@ const products =
     },
     {
         "name": "SheWill Women Purple Sequinned Kurti with Trousers",
-        "price": 8649.0,
+        "price": 8649,
         "description": "Purple solid Kurti with Trousers    Kurti design:     Solid   Straight shape   Regular style   Round neck,  three-quarter regular sleeves   Sequinned detail   Calf length with straight hem   Poly crepe machine weave fabric     Trousers design:     Solid Trousers   Partially elasticated waistband   Slip-on closure  The model (height 5'8) is wearing a size SDry clean only",
         "category": "Myntra",
         "brand": "SheWill",
@@ -1388,7 +1355,7 @@ const products =
     },
     {
         "name": "Anouk Women Blue & White Printed Straight Kurta",
-        "price": 1799.0,
+        "price": 1799,
         "description": "Blue and white printed Straight kurta, has a round neck, sleeveless, flared hem, side slitsThe model (height 5'8\") is wearing a size S100% cottonHand-wash",
         "category": "Myntra",
         "brand": "Anouk",
@@ -1399,7 +1366,7 @@ const products =
     },
     {
         "name": "Vishudh Women White & Pink Printed A-Line Kurta",
-        "price": 1799.0,
+        "price": 1799,
         "description": "White and pink printed A-line kurta, has a round neck, three-quarter sleeves, straight hem, side slitsThe model (height 5'8\") is wearing a size SViscose RayonMachine-wash",
         "category": "Myntra",
         "brand": "Vishudh",
@@ -1410,7 +1377,7 @@ const products =
     },
     {
         "name": "Varanga Women Navy Blue & Red Ethnic Motifs Printed Kurta",
-        "price": 2999.0,
+        "price": 2999,
         "description": "  Colour: navy blue and red   Ethnic motifs printed   Round neck   Three-quarter,  regular sleeves   A-line shape with regular style   Calf length with straight hem   Machine weave regular cotton  CottonHand wash The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Varanga",
@@ -1421,7 +1388,7 @@ const products =
     },
     {
         "name": "Anouk Women Navy Blue Floral Yoke Design Thread Work Straight Kurta",
-        "price": 1299.0,
+        "price": 1299,
         "description": "  Colour: navy blue and red   Floral yoke design   Round neck   Three-quarter,  regular sleeves   Straight shape with regular style   Thread work detail   Knee length with straight hem   Machine weave regular viscose rayon  The model (height 5'8) is wearing a size SViscose rayon  Machine wash",
         "category": "Myntra",
         "brand": "Anouk",
@@ -1432,7 +1399,7 @@ const products =
     },
     {
         "name": "Libas Women Peach Pink Ethnic Motifs Print Flared Sleeves Laces Pure Cotton Straight Kurta",
-        "price": 1399.0,
+        "price": 1399,
         "description": "Colour: peach pinkEthnic motifs printRound neckThree-quarter, flared sleevesStraight shape with regular styleCalf length with straight hemHas lace detail around cuffs and yokeMachine weave regular cottonThe model (height 5'8) is wearing a size SPure CottonGentle machine wash",
         "category": "Myntra",
         "brand": "Libas",
@@ -1443,7 +1410,7 @@ const products =
     },
     {
         "name": "PRENEA Women Blue Floral Embroidered Pleated Kurti with Palazzos & With Dupatta",
-        "price": 3999.0,
+        "price": 3999,
         "description": "Blue embroidered Kurti with Palazzos with dupatta    Kurti design:     Floral embroidered   Anarkali shape   Pleated style   Boat neck,  short flared sleeves   Floor length with flared hem   Poly georgette knitted fabric     Palazzos design:     Solid Palazzos   Partially elasticated waistband   Drawstring closure  Dry cleanThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "PRENEA",
@@ -1454,7 +1421,7 @@ const products =
     },
     {
         "name": "Yuris Women Grey & White Pure Cotton Printed Kurta with Palazzos & Dupatta",
-        "price": 4299.0,
+        "price": 4299,
         "description": "Grey and white printed kurta with palazzos and dupattaGrey and white printed straight calf length kurta, has a round neck, three-quarter sleeves, side slitsGrey and white printed palazzos, has elasticated waistband, slip-on closureGrey and white printed dupatta, has printed borderThe model (height 5'8\") is wearing a size STop fabric: Pure CottonBottom fabric: Pure CottonDupatta fabric: Pure CottonHand-wash",
         "category": "Myntra",
         "brand": "Yuris",
@@ -1465,7 +1432,7 @@ const products =
     },
     {
         "name": "W Women Green Geometric Printed Kurta",
-        "price": 3599.0,
+        "price": 3599,
         "description": "Colour: green andGeometric printedMandarin collarThree-quarter sleeves, regular sleevesA-line shape with regular styleAnkle length with flared hemMachine weave regular viscose rayon&nbsp;The model (height 5'8) is wearing a size S100% rayonMachine wash",
         "category": "Myntra",
         "brand": "W",
@@ -1476,7 +1443,7 @@ const products =
     },
     {
         "name": "HERE&NOW Women Red Printed A-Line Kurta",
-        "price": 1799.0,
+        "price": 1799,
         "description": "Red and golden printed A-line kurta with slits, has a tie-up neck, three-quarter sleeves with tie-ups, flared hem, no slitsThe model (height 5'8\") is wearing a size SViscose Rayon Hand-wash",
         "category": "Myntra",
         "brand": "HERE&NOW",
@@ -1487,7 +1454,7 @@ const products =
     },
     {
         "name": "Anubhutee Women Pink & White Printed Kurta with Trousers & Dupatta",
-        "price": 3999.0,
+        "price": 3999,
         "description": "Pink and white printed kurta with trousersPink and white printed straight calf length kurta, has a round neck, three-quarter sleeves, straight hem, side slitsPink and white printed trousers, drawstring closure, one pocketPink and white printed dupattaKurta fabric: Pure cottonBottom fabric: Pure cottonDupatta fabric: VoileHand-washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "Anubhutee",
@@ -1498,7 +1465,7 @@ const products =
     },
     {
         "name": "FASHION DEPTH Women Black Ethnic Motifs Embroidered Kurta",
-        "price": 1999.0,
+        "price": 1999,
         "description": "  Colour: black   Ethnic motifs embroidered   Round neck   Three-quarter,  regular sleeves   Straight shape with regular style   Thread work detail   Calf length with straight hem   Machine weave regular viscose rayon   The model (height 5'8) is wearing a size SViscoseFirst wash Machine Wash then handwash",
         "category": "Myntra",
         "brand": "FASHION DEPTH",
@@ -1509,7 +1476,7 @@ const products =
     },
     {
         "name": "HERE&NOW Women Mustard Yellow Bandhani Print Kurta with Sharara & Dupatta",
-        "price": 3999.0,
+        "price": 3999,
         "description": "Mustard yellow printed Kurta with Sharara and dupattaKurta design: Bandhani printedA-line shapeRegular styleRound neck, sleevelessAbove knee length with flared hemViscose rayon machine weave fabricSharara design: Printed ShararaPartially elasticated waistbandConcealed zip closureDupatta DesignPrinted dupattaSize worn by the model: SChest: 32\"Waist: 24\"Hips: 34\"Height: 5'5''Top Fabric: 100% viscoseBottom&nbsp;Fabric: 100% viscoseDupatta Fabric: 100% cottonMachine-wash",
         "category": "Myntra",
         "brand": "HERE&NOW",
@@ -1520,7 +1487,7 @@ const products =
     },
     {
         "name": "W Women Black Quirky Printed Kurta",
-        "price": 1799.0,
+        "price": 1799,
         "description": "Colour: blackthree-quarter sleevesroll-upround neckcalf lengthstraight hemstraight shape with regular stylemachine weaveviscose rayonThe model (height 5'8) is wearing a size S100% Viscosehand wash",
         "category": "Myntra",
         "brand": "W",
@@ -1531,7 +1498,7 @@ const products =
     },
     {
         "name": "Vishudh Women Lime Green Floral Printed Floral Kurta",
-        "price": 1249.0,
+        "price": 1249,
         "description": "Colour: lime green andFloral printedRound neckThree-quarter sleeves, regular sleevesStraight shape with regular styleCalf length with straight hemMachine weave regular cotton&nbsp;Cotton  Machine washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Vishudh",
@@ -1542,7 +1509,7 @@ const products =
     },
     {
         "name": "Biba Women Teal Green Floral Printed Kurta with Salwar",
-        "price": 2799.0,
+        "price": 2799,
         "description": "Teal green printed Kurta with SalwarKurta design: Floral printedA-line shapeRegular styleMandarin collar, short regular sleevesKnee length with asymmetric hemPolyester machine weave fabricSalwar design: Printed SalwarElasticated waistbandDrawstring closureSize worn by the model: 32Chest: 32\"Waist: 26\"Hips: 38\"Height: 5'9\"Kurta Fabric:&nbsp; 100% PolyesterBottom Fabric: 100% PolyesterHand wash",
         "category": "Myntra",
         "brand": "Biba",
@@ -1553,7 +1520,7 @@ const products =
     },
     {
         "name": "Vishudh Women Navy Blue Yoke Design Straight Kurta",
-        "price": 1699.0,
+        "price": 1699,
         "description": "Navy Blue yoke design straight kurta, has a round neck, three-quarter sleeves, straight hem, side slitsCotton Machine-washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "Vishudh",
@@ -1564,7 +1531,7 @@ const products =
     },
     {
         "name": "Ishin Women Brown Embroidered Kurti with Sharara & Dupatta",
-        "price": 7399.0,
+        "price": 7399,
         "description": "Brown embroidered kurta with shararaBrown anarkali above knee kurta, has a round neck, three-quarter sleeves, flared hemBrown printed sharara, drawstring closureBrown solid dupatta with taped borderKurta fabric: pure cottonBottom fabric: pure cottonDupatta fabric: pure cottonDry-cleanThe model (height 5'8\") is wearing a size SLength: 2.3 mWidth: 1 m",
         "category": "Myntra",
         "brand": "Ishin",
@@ -1575,7 +1542,7 @@ const products =
     },
     {
         "name": "Varanga Women Pink Ethnic Motifs A-line Kurta with Trousers &  Dupatta",
-        "price": 6999.0,
+        "price": 6999,
         "description": "Pink yoke design Kurta with Trousers with dupatta    Kurta design:     Ethnic motifs yoke design   A-line shape   Regular style   Tie-up neck,  three-quarter regular sleeves   Beads and stones detail   Calf length with straight hem   Silk blend machine weave fabric     Trousers design:     Embroidered Trousers   Elasticated waistband   Slip-on closure  The model (height 5'8) is wearing a size STop Fabric:Silk Blend ,Bottom Fabric:Silk Blend ,Dupatta Fabric:NetDry clean",
         "category": "Myntra",
         "brand": "Varanga",
@@ -1586,7 +1553,7 @@ const products =
     },
     {
         "name": "Nayo Women Blue & Maroon Paisley Printed Cotton Kurta",
-        "price": 1299.0,
+        "price": 1299,
         "description": "Colour: blue and maroonPaisley printedRound neck with v-slitThree-quarter, regular sleevesA-line shape with panelled styleMirror work detailCalf length with straight hemMachine weave regular cotton The model (height 5'8) is wearing a size SCottonHand Wash",
         "category": "Myntra",
         "brand": "Nayo",
@@ -1597,7 +1564,7 @@ const products =
     },
     {
         "name": "Anouk Women Blue Kurta with Yarn Dyed Trousers",
-        "price": 2099.0,
+        "price": 2099,
         "description": "Blue self design Kurta with Trousers    Kurta design:     Checked self design   Straight shape   Regular style   Mandarin collar,  three-quarter regular sleeves   Knee length with straight hem   Polyester machine weave fabric     Trousers design:     Solid Trousers   Partially elasticated waistband  The model (height 5'8) is wearing a size STop fabric: 52% Polyester &amp; 48% CottonBottom fabric:&nbsp;52% Polyester &amp; 48% CottonMachine wash",
         "category": "Myntra",
         "brand": "Anouk",
@@ -1608,7 +1575,7 @@ const products =
     },
     {
         "name": "W Women White Geometric Printed Thread Work Kurta",
-        "price": 1899.0,
+        "price": 1899,
         "description": "  Colour: white   Geometric woven design   Keyhole neck   Three-quarter,  regular sleeves   A-line shape with regular style   Thread work detail   Calf length with straight hem   Knitted and woven regular cotton   The model (height 5'8) is wearing a size SFabric Name : Cotton Flax, Fabric Composition : 88% Cotton 12 % Flax,Machine Wash",
         "category": "Myntra",
         "brand": "W",
@@ -1619,7 +1586,7 @@ const products =
     },
     {
         "name": "Anouk Women Purple & White Ethnic Motifs Printed Cotton Kurta",
-        "price": 999.0,
+        "price": 999,
         "description": "  Colour: purple and white   Ethnic motifs printed   Round neck   Three-quarter,  regular sleeves   Straight shape with regular style   Calf length with straight hem   Machine weave regular cotton  Cotton  Machine wash The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Anouk",
@@ -1630,7 +1597,7 @@ const products =
     },
     {
         "name": "KALINI Women Pink Bandhani Printed Anarkali Kurta",
-        "price": 1999.0,
+        "price": 1999,
         "description": "  Colour: pink   Bandhani printed   Round neck   Sleeveless,  regular sleeves   Anarkali shape with regular style   Ankle length with flared hem   Machine weave regular viscose rayon   The model (height 5'8) is wearing a size SReady to wear",
         "category": "Myntra",
         "brand": "KALINI",
@@ -1641,7 +1608,7 @@ const products =
     },
     {
         "name": "Vishudh Women Yellow & Off White Ethnic Motifs Printed A-Line Kurta with Jacket",
-        "price": 3999.0,
+        "price": 3999,
         "description": "Colour: yellow &amp; off whiteEthnic motifs printedRound neckSleevelessA-line&nbsp;shape with regular&nbsp;styleAnkle length with flared hemMachine weave regular cottonJacket:Yellow long open front jacketEthnic motifs printedLong sleevesTie-up closureCotton &amp; PolyesterMachine wash The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Vishudh",
@@ -1652,7 +1619,7 @@ const products =
     },
     {
         "name": "Meeranshi Women Navy Blue Ethnic Motifs Panelled Kurta with Trousers & With Dupatta",
-        "price": 4499.0,
+        "price": 4499,
         "description": "Navy blue solid Kurti with Trousers with dupatta    Kurti design:     Ethnic motifs solid   Anarkali shape   Panelled style   V-neck,  short puffed sleeves   Na pockets gotta patti detail   Floor length with flared hem   Viscose rayon knitted and woven fabric     Trousers design:     Solid Trousers   Elasticated waistband   Slip-on closure  Viscose rayonMachine WashThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Meeranshi",
@@ -1663,7 +1630,7 @@ const products =
     },
     {
         "name": "anayna Women Beige & Pink Screen Print Straight Kurta",
-        "price": 1660.0,
+        "price": 1660,
         "description": "Beige and pink screen printed straight kurta, has a round neck, sleeveless, straight hem, and side slitsThe model (height 5'8\") is wearing a size SMaterial: 100% CottonMachine Wash",
         "category": "Myntra",
         "brand": "anayna",
@@ -1674,7 +1641,7 @@ const products =
     },
     {
         "name": "W Women Green & Golden Regular Sequinned Kurta with Trousers & With Dupatta",
-        "price": 3999.0,
+        "price": 3999,
         "description": "Green and golden printed Kurta with Trousers with dupattaKurta design: PrintedStraight shapeRegular styleRound neck, three-quarter regular sleevesThreadwork detailCalf length with straight hemViscose rayon machine weave fabricTrousers design: Solid TrousersPartially elasticated waistbandZip closureTop fabric: Viscose RayonBottom fabric: Viscose RayonDupatta fabric: PolyesterHand washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "W",
@@ -1685,7 +1652,7 @@ const products =
     },
     {
         "name": "Anubhutee Women Mustard Yellow & Brown Screen Printed Straight Kurta",
-        "price": 1999.0,
+        "price": 1999,
         "description": "Mustard yellow and brown screen printed straight kurta with mirror and embroidered detail, has a round neck, three-quarter sleeves, straight hem, and side slitsViscose RayonHand-washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "Anubhutee",
@@ -1696,7 +1663,7 @@ const products =
     },
     {
         "name": "FASHION DEPTH Women Green & Yellow Floral Yoke Design Thread Work Straight Kurta",
-        "price": 1999.0,
+        "price": 1999,
         "description": "Colour: green and yellow, redFloral yoke designRound neckThree-quarter, regular sleevesStraight shape with regular styleThread work detailCalf length with straight hemMachine weave regular viscose rayonViscose rayon  Machine wash The model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "FASHION DEPTH",
@@ -1707,7 +1674,7 @@ const products =
     },
     {
         "name": "anayna Women Pink Printed Straight Kurta",
-        "price": 1599.0,
+        "price": 1599,
         "description": "Pink printed straight kurta, has a round neck, sleeveless, straight hem, side slitsThe model (height 5'8\") is wearing a size S100% cottonMachine-wash",
         "category": "Myntra",
         "brand": "anayna",
@@ -1718,7 +1685,7 @@ const products =
     },
     {
         "name": "Nayo Women Navy Blue Ethnic Motifs Printed Indigo Kurta",
-        "price": 1299.0,
+        "price": 1299,
         "description": "Colour: navy blue&nbsp;Ethnic motifs printedMandarin collarThree-quarter, regular sleevesStraight shape with regular styleCalf length with straight hemMachine weave regular cottonCotton  Hand washThe model (height 5'8) is wearing a size S",
         "category": "Myntra",
         "brand": "Nayo",
@@ -1729,7 +1696,7 @@ const products =
     },
     {
         "name": "Jaipur Kurti Women Mustard Yellow & Grey Yoke Design Kurta with Palazzos & Dupatta",
-        "price": 4449.0,
+        "price": 4449,
         "description": "Mustard yellow and grey yoke design kurta with palazzos and dupattaMustard yellow yoke design straight calf length kurta with embroidered detail, has a notched round neck, three-quarter sleeves, side slitsMustard yellow solid palazzos, has partially elasticated waistband, slip-on closure, two pocketsGrey printed net dupatta, has taping border with tasselled detailThe model (height 5'8\") is wearing a size SKurta fabric: muslinBottom fabric: muslin&nbsp;Dupatta fabric: netHand-wash",
         "category": "Myntra",
         "brand": "Jaipur Kurti",
@@ -1740,7 +1707,7 @@ const products =
     },
     {
         "name": "Biba Women Yellow Printed Regular Kurta with Palazzos & With Dupatta",
-        "price": 4995.0,
+        "price": 4995,
         "description": "Yellow printed Kurta with Palazzos with dupatta    Kurta design:     Striped printed   Straight shape   Regular style   Round neck,  three-quarter regular sleeves   Calf length with straight hem   Cotton blend machine weave fabric     Palazzos design:     Printed Palazzos   Elasticated waistband  The model (height 5'8) is wearing a size STop fabric:  Cotton Blend  Bottom fabric:  Cotton Blend  Dupatta fabric:  Velvet  Hand wash",
         "category": "Myntra",
         "brand": "Biba",
@@ -1751,7 +1718,7 @@ const products =
     },
     {
         "name": "Ode by House of Pataudi Women Pink Cotton Floral Printed Rozana Fit & flare Kurta",
-        "price": 1499.0,
+        "price": 1499,
         "description": "About the BrandAn Ode etched in the Patuadi lifestyle, offering contemporary ethnic wardrobe solutions balancing modernity with tradition. The line offers affordable ethnic wear for the urban youth by extending statement cuts, with innovative fabrics to create a bold signature styling. This line beautifully balances vibrancy and tradition with novelty and elegance.About the collectionRozana:&nbsp;Everyday ethnic wear that balances comfort and style.Product Design DetailsColour: PinkEthnic motifs printedSleeveless, shoulder strapsA-line shape with pleated styleCalf length with flared hemMachine weave regular cottonCotton  Hand washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "Ode by House of Pataudi",
@@ -1762,7 +1729,7 @@ const products =
     },
     {
         "name": "AHIKA Women Red Solid Mandarin Collar Kurta",
-        "price": 1737.0,
+        "price": 1737,
         "description": "Colour: RedThree-quarter sleeves regularMandarin collarCalf lengthFlared hemA-line shape with styleMachine weave viscose rayon&nbsp;The model (height 5'8) is wearing a size SViscose Rayon ,Hand Wash",
         "category": "Myntra",
         "brand": "AHIKA",
@@ -1773,7 +1740,7 @@ const products =
     },
     {
         "name": "Popnetic Women Beige & Green Printed Kurta with Palazzos",
-        "price": 2499.0,
+        "price": 2499,
         "description": "Beige, green and blue printed kurta with palazzosBeige, green and blue printed straight calf length kurta, has a mandarin collar, short sleeves, button closure, straight hem, multiple slitsBeige, green and blue Printed palazzos, has partially elasticated waistband, slip-on closure and two pocketsTop fabric: Pure CottonBottom fabric: Pure CottonHand-washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "Popnetic",
@@ -1784,7 +1751,7 @@ const products =
     },
     {
         "name": "Ojjasvi Women White Geometric Lace Kurta",
-        "price": 1499.0,
+        "price": 1499,
         "description": "Colour: whiteGeometric embroideredRound neckSleeveless, no sleevesKaftan shape with regular styleCalf length with straight hemMachine weave regular polyester The model (height 5'8) is wearing a size SHand Wash",
         "category": "Myntra",
         "brand": "Ojjasvi",
@@ -1795,7 +1762,7 @@ const products =
     },
     {
         "name": "anayna Women White & Pink Printed Kurta with Palazzos",
-        "price": 2999.0,
+        "price": 2999,
         "description": "White and pink printed kurta with palazzosWhite and pink printed straight calf length kurta, has a V-neck, three-quarter sleeves, straight hem, side slitsWhite and pink Printed palazzos, has partially elasticated waistband, slip-on closureThe model (height 5'8\") is wearing a size STop fabric: Pure CottonBottom fabric: Pure CottonMachine-wash",
         "category": "Myntra",
         "brand": "anayna",
@@ -1806,7 +1773,7 @@ const products =
     },
     {
         "name": "Varanga Women Teal Panelled Kurta with Trousers & With Dupatta",
-        "price": 4999.0,
+        "price": 4999,
         "description": "Teal self design Kurta with Trousers with dupatta with dupatta   Kurta design:     Checked self design   A-line shape   Panelled style   V-neck,  sleeveless no sleeves   Calf length with flared hem   Art silk machine weave fabric     Trousers design:     Self design Trousers   Elasticated waistband   Slip-on closure   Comes with a   Dupatta length: 2 metres (approx.)  The model (height 58) is wearing a size STop fabric:  Art Silk  Bottom fabric:  Art Silk  Dupatta fabric:  Silk Blend  Machine wash",
         "category": "Myntra",
         "brand": "Varanga",
@@ -1817,7 +1784,7 @@ const products =
     },
     {
         "name": "ANAISA Criss-Cross Screen Print Gotta Kurta Set",
-        "price": 2219.0,
+        "price": 2219,
         "description": "This set includes: Kurta and Palazzos&nbsp;Soft to the touch and flowy in silhouette, this set defines comfort fashion in ethnic wear! With geometric criss-cross pattern all over the kurta and spaced ethnic motifs on the palazzos, this piece has an unique symmetry in its design elements. Accentuated with silver gotta lacing and soothing colour tones, this is perfect summer daywear piece.Kurta:Geometric criss-cross screen print with gotta lace, round neck, 3/4th sleeves, mid-calf length fall. Side slits with tasselled tie-up&nbsp;&nbsp;Palazzos:Ethnic screen print pleated in wide silhouette, elasticated waistline, 1 pocketViscose rayon, hand-washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "ANAISA",
@@ -1828,7 +1795,7 @@ const products =
     },
     {
         "name": "Libas Women Blue Paisley Yoke Design Gotta Patti Pastels Kurta",
-        "price": 1899.0,
+        "price": 1899,
         "description": "  Colour: blue   Paisley yoke design   Sweetheart neck   Three-quarter,  regular sleeves   Straight shape with panelled style   Gotta patti detail   Calf length with straight hem   Machine weave regular viscose rayon   The model (height 5'8) is wearing a size SRayonGentle Machine Wash",
         "category": "Myntra",
         "brand": "Libas",
@@ -1839,7 +1806,7 @@ const products =
     },
     {
         "name": "Inddus Women Purple Solid Kurta with Trousers & Dupatta",
-        "price": 5999.0,
+        "price": 5999,
         "description": "Purple solid kurta with trousersPurple A-line calf length kurta, has a round neck, three-quarter sleeves, flared hemPurple solid trousers, slip-on closurePurple solid dupatta with ruffled borderKurta fabric: silk blendBottom fabric: silk blendDupatta fabric: netDry-cleanThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "Inddus",
@@ -1850,7 +1817,7 @@ const products =
     },
     {
         "name": "AHIKA Women Off-White & Green Printed Kurta with Palazzos",
-        "price": 2398.0,
+        "price": 2398,
         "description": "Off-White and green printed kurta with palazzos Off-White and green straight calf length kurta, has a round neck, three-quarter sleeves, straight hem, side slitsOff-White and green  Printed palazzos, has elasticated waistband, drawstring closureTop fabric: Pure CottonBottom fabric: Pure CottonHand-washThe model (height 5'8\") is wearing a size S",
         "category": "Myntra",
         "brand": "AHIKA",
@@ -1859,5 +1826,6 @@ const products =
         "rating": 4,
         "image": "/images/b3a2f107-2633-4f23-93c2-caba0e768fe61614317062422-AHIKA-Women-Kurta-Sets-4641614317060315-1.jpg"
     }
-]
+];
+
 export default products;

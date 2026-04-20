@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { Provider } from 'react-redux';
 import { PayPalScriptProvider } from '@paypal/react-paypal-js';  
+import { GoogleOAuthProvider } from '@react-oauth/google';
 import store from './store';
 import './index.css';
 import App from './App';
@@ -67,9 +68,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <PayPalScriptProvider options={{ 'client-id': 'test', currency: 'USD' }}>
-        <RouterProvider router={router} />
-      </PayPalScriptProvider>
+      <GoogleOAuthProvider clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID || '12345-placeholdermock.apps.googleusercontent.com'}>
+        <PayPalScriptProvider options={{ 'client-id': 'test', currency: 'USD' }}>
+          <RouterProvider router={router} />
+        </PayPalScriptProvider>
+      </GoogleOAuthProvider>
     </Provider>
   </React.StrictMode>
 );
